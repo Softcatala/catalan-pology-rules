@@ -39,12 +39,12 @@ for filename in *.rules; do
 
     # Check incorrect sentences
     error=$(get_pology_error_msg_for_rules_errors "$incorrect")
-
-    # Check wrong sentences for the rule
     posieve check-rules -s rfile:date-format.rules $incorrect > results.txt
 
     if ! grep -q "$error" results.txt; then
-        echo "Pology found different number of error(s) in file" $incorrect "than expected" 
+        echo "Pology found different number of error(s) in file" $incorrect "than expected"
+        cat results.txt
+        echo $error
         failed=1
     fi
 done
