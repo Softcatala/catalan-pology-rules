@@ -22,6 +22,7 @@ get_pology_error_msg_for_rules_errors()
     echo $error
 }
 
+failed=0
 for filename in *.rules; do
 
     filename="${filename%.*}"
@@ -32,7 +33,8 @@ for filename in *.rules; do
     posieve check-rules -s rfile:date-format.rules $correct > results.txt
 
     if grep -q "===== Les regles han detectat" results.txt; then
-        echo "Pology found error(s) in file" $correct "where no errors were expected" 
+        echo "Pology found error(s) in file" $correct "where no errors were expected"
+        failed=1
     fi
 
     # Check incorrect sentences
@@ -43,5 +45,12 @@ for filename in *.rules; do
 
     if ! grep -q "$error" results.txt; then
         echo "Pology found different number of error(s) in file" $incorrect "than expected" 
+        failed=1
     fi
 done
+
+if [ $failed -eq 1 ]; then
+    exit 1
+fi
+    
+

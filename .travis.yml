@@ -7,5 +7,5 @@ install:
   - wget http://pology.nedohodnik.net/release/pology-0.12.tar.bz2
   - tar jxf pology-0.12.tar.bz2
 script:
-  - export PATH=$PATH$:pology-0.12/
+  - export PATH=$PATH$:pology-0.12/bin
   - ./check.sh
