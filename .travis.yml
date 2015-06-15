@@ -1,10 +1,11 @@
-language: bash
+language: python
+python:
+  - "2.7"
 install:
   - sudo apt-get update
   - sudo apt-get install gettext
   - wget http://pology.nedohodnik.net/release/pology-0.12.tar.bz2
   - tar jxf pology-0.12.tar.bz2
 script:
-  - PATH=$PATH$:pology-0.12/
-  - export PATH
+  - export PATH=$PATH$:pology-0.12/
   - ./check.sh
