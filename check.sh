@@ -9,8 +9,8 @@ get_number_of_messages_in_po_file()
 }
 
 # Look for the error message with the exact number of errors
-# what pology returned
-get_pology_error_msg_for_rules_errors()
+# what pology returned in Catalan
+get_pology_error_catalan_msg_for_rules_errors()
 {
     # Get number of strings in PO file
     msgfmt $1 --statistics 2> results.txt 
@@ -22,8 +22,20 @@ get_pology_error_msg_for_rules_errors()
     echo $error
 }
 
-# Messages from Pology expected in Catalan
-export LANG="ca_ES.utf8"
+
+# Look for the error message with the exact number of errors
+# what pology returned in English
+get_pology_error_english_msg_for_rules_errors()
+{
+    # Get number of strings in PO file
+    msgfmt $1 --statistics 2> results.txt 
+    sed 's/[^0-9]//g' results.txt > strings.txt
+    strings=`cat strings.txt`
+    error="===== Rules detected " 
+    error+=$(get_number_of_messages_in_po_file $1)
+    error+=" problem"
+    echo $error
+}
 
 failed=0
 for filename in *.rules; do
@@ -41,10 +53,11 @@ for filename in *.rules; do
     fi
 
     # Check incorrect sentences
-    error=$(get_pology_error_msg_for_rules_errors "$incorrect")
+    error_ca=$(get_pology_error_catalan_msg_for_rules_errors "$incorrect")
+    error_en=$(get_pology_error_english_msg_for_rules_errors "$incorrect")
     posieve check-rules -s rfile:date-format.rules $incorrect > results.txt
 
-    if ! grep -q "$error" results.txt; then
+    if ! grep -q "$error_ca" results.txt && ! grep -q "$error_en" results.txt ; then
         echo "Pology found different number of error(s) in file" $incorrect "than expected"
         cat results.txt
         echo $error
