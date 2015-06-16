@@ -7,7 +7,8 @@ install:
   - wget http://pology.nedohodnik.net/release/pology-0.12.tar.bz2
   - tar jxf pology-0.12.tar.bz2
   - locale -a
-  - sudo locale-gen ca_ES
+  - sudo locale-gen ca_ES.UTF-8
+  - locale -a
 script:
   - export PATH=$PATH$:pology-0.12/bin
   - ./check.sh
