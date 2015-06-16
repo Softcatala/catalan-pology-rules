@@ -22,6 +22,9 @@ get_pology_error_msg_for_rules_errors()
     echo $error
 }
 
+# Messages from Pology expected in Catalan
+export LANG="ca_ES.UTF-8"
+
 failed=0
 for filename in *.rules; do
 
