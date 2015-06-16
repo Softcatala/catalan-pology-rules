@@ -6,6 +6,8 @@ install:
   - sudo apt-get install gettext
   - wget http://pology.nedohodnik.net/release/pology-0.12.tar.bz2
   - tar jxf pology-0.12.tar.bz2
+  - locale -a
+  - sudo locale-gen ca_ES
 script:
   - export PATH=$PATH$:pology-0.12/bin
   - ./check.sh
