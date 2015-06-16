@@ -11,4 +11,5 @@ install:
   - locale -a
 script:
   - export PATH=$PATH$:pology-0.12/bin
+  - export LANG="ca_ES.utf8"
   - ./check.sh
