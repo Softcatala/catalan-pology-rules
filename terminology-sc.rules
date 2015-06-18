@@ -1,0 +1,24 @@
+#
+# Softcatalà terminology 
+# 
+# When the terminology does not follow TERMCAT's recommendations we will
+# highlight that fact
+# 
+# License: GPLv3
+#
+
+# Remove XML entities.
+include file="filter.include"
+
+# Remove accelerator and  hyphen inside words.
+addFilterRegex match="(\&|\-)" on="pmsgid,pmsgstr"
+
+{\bwireless\snetwork\b}i
+id="1"
+valid msgstr="xarxa sense fils"
+hint="Es tradueix per «Xarxa sense fils», «Xarxa sense fil» és incorrecte."
+
+
+
+
+
