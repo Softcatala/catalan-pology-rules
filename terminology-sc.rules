@@ -1,4 +1,5 @@
 #
+
 # Softcatalà terminology 
 # 
 # When the terminology does not follow TERMCAT's recommendations we will
@@ -14,9 +15,22 @@ include file="filter.include"
 addFilterRegex match="(\&|\-)" on="pmsgid,pmsgstr"
 
 {\bwireless\snetwork\b}i
-id="1"
+id="wireless"
 valid msgstr="xarxa sense fils"
 hint="Es tradueix per «Xarxa sense fils», «Xarxa sense fil» és incorrecte."
+
+{\bPerceptual\b}i
+id="perceptual"
+valid !msgstr="Perceptual"
+hint="«Perceptual», és un aglicisme cal usar «perceptiu»."
+
+{\bredirect\b}i
+id="redirect"
+valid msgstr="redirigeix"
+valid msgstr="redirigir"
+valid msgstr="redireccions"
+valid msgstr="redirecció"
+hint="«Redirect» es tradueix per «Redirecció» si és nom o bé «Redirigir» com a verb. L'ús de «redireccionar» és incorrecte."
 
 
 
