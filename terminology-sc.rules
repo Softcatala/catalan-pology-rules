@@ -6,17 +6,14 @@
 # 
 # License: GPLv3
 #
+# Keep this file alphabetically sorted by source regular expression
+# 
 
 # Remove XML entities.
 include file="filter.include"
 
 # Remove accelerator and  hyphen inside words.
 addFilterRegex match="(\&|\-)" on="pmsgid,pmsgstr"
-
-{\bwireless\snetwork\b}i
-id="wireless"
-valid !msgstr="xarxa sense fils"
-hint="Es tradueix per «xarxa sense fil», «xarxa sense fils» és incorrecte."
 
 {\bPerceptual\b}i
 id="perceptual"
@@ -31,6 +28,10 @@ valid msgstr="redireccions"
 valid msgstr="redirecció"
 hint="«Redirect» es tradueix per «redirecció» si és nom o bé «redirigir» com a verb. L'ús de «redireccionar» és incorrecte."
 
+{\bwireless\snetwork\b}i
+id="wireless"
+valid !msgstr="xarxa sense fils"
+hint="Es tradueix per «xarxa sense fil», «xarxa sense fils» és incorrecte."
 
 
 
