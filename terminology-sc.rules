@@ -16,12 +16,12 @@ include file="filter.include"
 addFilterRegex match="(\&|\-)" on="pmsgid,pmsgstr"
 
 {\bPerceptual\b}i
-id="perceptual"
+id="t-sc-perceptual"
 valid !msgstr="Perceptual"
 hint="«Perceptual», és un aglicisme cal usar «perceptiu»."
 
 {\bredirect\b}i
-id="redirect"
+id="t-sc-redirect"
 valid msgstr="redirigeix"
 valid msgstr="redirigir"
 valid msgstr="redireccions"
@@ -29,7 +29,7 @@ valid msgstr="redirecció"
 hint="«Redirect» es tradueix per «redirecció» si és nom o bé «redirigir» com a verb. L'ús de «redireccionar» és incorrecte."
 
 {\bwireless\snetwork\b}i
-id="wireless"
+id="t-sc-wireless"
 valid !msgstr="xarxa sense fils"
 hint="Es tradueix per «xarxa sense fil», «xarxa sense fils» és incorrecte."
 
