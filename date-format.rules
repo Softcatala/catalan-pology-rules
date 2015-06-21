@@ -47,7 +47,7 @@ hint="Especificadors de format de data possiblement incorrectes. En anglès «Ja
 {%m/%d/%y}
 valid msgstr="%d/%m/%y"
 valid msgstr="%d-%m-%y"
-hint="Especificadors de format de data possiblement incorrectes. En anglès «XXX», en català «XXX»"
+hint="Especificadors de format de data possiblement incorrectes. En anglès «1/31/2016», en català «31/1/2016»"
 
 #
 # PHP
