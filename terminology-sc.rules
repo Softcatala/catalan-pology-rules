@@ -1,5 +1,4 @@
 #
-
 # Softcatalà terminology 
 # 
 # When the terminology does not follow TERMCAT's recommendations we will
@@ -16,8 +15,8 @@ addFilterRegex match="(\&|\-)" on="pmsgid,pmsgstr"
 
 {\bwireless\snetwork\b}i
 id="wireless"
-valid msgstr="xarxa sense fils"
-hint="Es tradueix per «Xarxa sense fils», «Xarxa sense fil» és incorrecte."
+valid !msgstr="xarxa sense fils"
+hint="Es tradueix per «xarxa sense fil», «xarxa sense fils» és incorrecte."
 
 {\bPerceptual\b}i
 id="perceptual"
@@ -30,7 +29,7 @@ valid msgstr="redirigeix"
 valid msgstr="redirigir"
 valid msgstr="redireccions"
 valid msgstr="redirecció"
-hint="«Redirect» es tradueix per «Redirecció» si és nom o bé «Redirigir» com a verb. L'ús de «redireccionar» és incorrecte."
+hint="«Redirect» es tradueix per «redirecció» si és nom o bé «redirigir» com a verb. L'ús de «redireccionar» és incorrecte."
 
 
 
