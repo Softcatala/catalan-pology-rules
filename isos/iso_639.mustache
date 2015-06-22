@@ -1,0 +1,20 @@
+#
+# ISO_639 Language codes rules
+# 
+
+# Remove XML entities.
+include file="filter.include"
+
+# Remove accelerator and  hyphen inside words.
+addFilterRegex match="(\&|\-)" on="pmsgid,pmsgstr"
+
+
+{{#rules}}
+{^{{source}}$}i
+id="language-{{source}}"
+{{#targets}}
+valid msgstr="{{target}}"
+{{/targets}}
+hint="El nom de llengua «{{source}}» es tradueix per «{{all_targets}}»."
+
+{{/rules}}
