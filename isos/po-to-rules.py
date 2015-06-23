@@ -41,7 +41,6 @@ def read_po_file(filename):
         if entry.translated() == False:
             continue
 
-        #msgid = entry.msgid.replace(',', ';')
         msgid = entry.msgid
         for source in msgid.split(';'):
             targets = []
@@ -55,24 +54,18 @@ def read_po_file(filename):
     return translations
 
 def process_template(template, filename, ctx):
-    # Load template and process it.
     template = open(template, 'r').read()
     parsed = pystache.Renderer()
     s = parsed.render(unicode(template, "utf-8"), ctx)
 
-    # Write output.
     f = open(filename, 'w')
     f.write(s.encode("utf-8"))
     f.close()
 
 
 def main():
-    '''
-        Reads the projects and generates an HTML to enable downloading all
-        the translation memories
-    '''
-    print "Compares two sets of PO files and shows the difference"
-    print "Use --help for assistance"
+
+    print "Converts a PO file into a Pology rules file"
 
     translations = read_po_file("iso_639-3.57.ca.po")
 
