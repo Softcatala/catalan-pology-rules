@@ -1,6 +1,15 @@
 #
-# ISO_639 Language codes rules
+# Language code rules
+#
+# License: GPLv3
+#
+# The objective of this rules is to bring consistency in the translation of languages
+# names across translation projects.
 # 
+# These rules have been generated using ISO_639-3 from the http://translationproject.org/
+# as a source.
+#
+ 
 
 # Remove XML entities.
 include file="filter.include"
@@ -275,7 +284,8 @@ hint="El nom de llengua «Balinese» es tradueix per «balinès»."
 id="language-Basque"
 valid msgstr="basc"
 valid msgstr="èuscar"
-hint="El nom de llengua «Basque» es tradueix per «basc; èuscar»."
+valid msgstr="eusquera"
+hint="El nom de llengua «Basque» es tradueix per «basc; èuscar; eusquera»."
 
 {^Basa$}i
 id="language-Basa"
@@ -1302,7 +1312,8 @@ hint="El nom de llengua «Kamba» es tradueix per «kamba»."
 {^Kannada$}i
 id="language-Kannada"
 valid msgstr="kanarès"
-hint="El nom de llengua «Kannada» es tradueix per «kanarès»."
+valid msgstr="kannada"
+hint="El nom de llengua «Kannada» es tradueix per «kanarès; kannada»."
 
 {^Karen languages$}i
 id="language-Karen languages"
@@ -1586,7 +1597,8 @@ hint="El nom de llengua «Lushai» es tradueix per «lushai»."
 {^Macedonian$}i
 id="language-Macedonian"
 valid msgstr="macedoni"
-hint="El nom de llengua «Macedonian» es tradueix per «macedoni»."
+valid msgstr="macedònic"
+hint="El nom de llengua «Macedonian» es tradueix per «macedoni; macedònic»."
 
 {^Madurese$}i
 id="language-Madurese"
@@ -2522,7 +2534,9 @@ hint="El nom de llengua «Sumerian» es tradueix per «sumeri»."
 {^Swahili$}i
 id="language-Swahili"
 valid msgstr="swahili"
-hint="El nom de llengua «Swahili» es tradueix per «swahili»."
+valid msgstr="suahili"
+valid msgstr="ruandès"
+hint="El nom de llengua «Swahili» es tradueix per «swahili; suahili; ruandès»."
 
 {^Swedish$}i
 id="language-Swedish"
@@ -2557,7 +2571,8 @@ hint="El nom de llengua «Tamil» es tradueix per «tàmil»."
 {^Tatar$}i
 id="language-Tatar"
 valid msgstr="tàtar"
-hint="El nom de llengua «Tatar» es tradueix per «tàtar»."
+valid msgstr="tàrtar"
+hint="El nom de llengua «Tatar» es tradueix per «tàtar; tàrtar»."
 
 {^Telugu$}i
 id="language-Telugu"
