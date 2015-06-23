@@ -196,7 +196,7 @@ msgstr "balinès"
 
 #. name for eus, eu
 msgid "Basque"
-msgstr "basc; èuscar; eusquera"
+msgstr "basc; èuscar"
 
 #. name for bas
 msgid "Basa"
@@ -876,7 +876,7 @@ msgstr "kamba"
 
 #. name for kan, kn
 msgid "Kannada"
-msgstr "kanarès; kannada"
+msgstr "kanarès"
 
 #. name for kar
 msgid "Karen languages"
@@ -1072,7 +1072,7 @@ msgstr "lushai"
 
 #. name for mkd, mk
 msgid "Macedonian"
-msgstr "macedoni; macedònic"
+msgstr "macedoni"
 
 #. name for mad
 msgid "Madurese"
@@ -1676,7 +1676,7 @@ msgstr "sumeri"
 
 #. name for swa, sw
 msgid "Swahili"
-msgstr "swahili; suahili; ruandès"
+msgstr "swahili"
 
 #. name for swe, sv
 msgid "Swedish"
@@ -1704,7 +1704,7 @@ msgstr "tàmil"
 
 #. name for tat, tt
 msgid "Tatar"
-msgstr "tàtar; tàrtar"
+msgstr "tàtar"
 
 #. name for tel, te
 msgid "Telugu"
