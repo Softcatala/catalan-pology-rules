@@ -4,5 +4,8 @@
     },
     "Arabic": {
         "hint": "En alguns contextos pot fer referència a l'alfabet àrab en comptes de la llengua"
+    },
+    "Phoenician": {
+        "hint": "En alguns contextos pot fer referència a l'alfabet fenici en comptes de la llengua"
     }
 }

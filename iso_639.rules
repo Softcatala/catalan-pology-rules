@@ -2160,7 +2160,7 @@ hint="El nom de llengua «Philippine languages» es tradueix per «llengües fil
 {^Phoenician$}i
 id="language-Phoenician"
 valid msgstr="fenici"
-hint="El nom de llengua «Phoenician» es tradueix per «fenici»."
+hint="El nom de llengua «Phoenician» es tradueix per «fenici». En alguns contextos pot fer referència a l'alfabet fenici en comptes de la llengua."
 
 {^Pali$}i
 id="language-Pali"
