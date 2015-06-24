@@ -1732,7 +1732,7 @@ msgstr "tagal; tagàlog"
 
 #. name for tha, th
 msgid "Thai"
-msgstr "tai"
+msgstr "tai; thai"
 
 #. name for bod, bo
 msgid "Tibetan"
