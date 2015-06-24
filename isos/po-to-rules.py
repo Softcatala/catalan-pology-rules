@@ -20,27 +20,53 @@
 
 import polib
 import pystache
+import json
+
 from optparse import OptionParser
+
 
 class Target(object):
 
     def __init__(self, target):
         self.target = target
 
+
 class Translation(object):
 
-    def __init__(self, source, all_targets, targets):
+    def __init__(self, source, all_targets, targets, hint):
         self.source = source
         self.all_targets = all_targets
         self.targets = targets
+        self.hint = hint
 
-def read_po_file(filename):
+
+# Returns a list of diccionary where the key is the msgid where you apply the
+# exceptions and a list of these exceptions
+def _load_exceptions(filename):
+    if filename is None:
+        return None
+
+    with open(filename) as json_data:
+        data = json.load(json_data)
+
+    return data
+
+def read_po_file(filename, exceptions):
     input_po = polib.pofile(filename)
     translations = []
 
     for entry in input_po:
-        if entry.translated() == False:
+        if entry.translated() is False:
             continue
+
+        hint = None
+        if exceptions is not None:
+            actions = exceptions.get(entry.msgid)
+            if actions is not None:
+                if actions.get('ignore') == 'yes':
+                    continue
+
+                hint = actions.get('hint')
 
         msgid = entry.msgid
         for source in msgid.split(';'):
@@ -48,11 +74,12 @@ def read_po_file(filename):
             msgstr = entry.msgstr.replace(',', ';')
             for target in msgstr.split(';'):
                 targets.append(Target(target.strip()))
-         
-            translation = Translation(source.strip(), entry.msgstr, targets)    
+
+            translation = Translation(source.strip(), entry.msgstr, targets, hint)
             translations.append(translation)
 
     return translations
+
 
 def process_template(template, filename, ctx):
     template = open(template, 'r').read()
@@ -62,6 +89,7 @@ def process_template(template, filename, ctx):
     f = open(filename, 'w')
     f.write(s.encode("utf-8"))
     f.close()
+
 
 def read_parameters():
     parser = OptionParser()
@@ -74,6 +102,10 @@ def read_parameters():
                       action="store", type="string", dest="template",
                       help="Mustache template")
 
+    parser.add_option("-e", "--exceptions",
+                      action="store", type="string", dest="exceptions",
+                      help="Exceptions file")
+
     parser.add_option("-o", "--output",
                       action="store", type="string", dest="output",
                       help="Directory to find the TMX files")
@@ -84,16 +116,18 @@ def read_parameters():
        or options.output is None:
         parser.error('You need to provide input, template and output files')
 
-    return (options.input, options.template, options.output)
+    return (options.input, options.template, options.exceptions, options.output)
 
 
 def main():
 
     print "Converts a PO file into a Pology rules file"
 
-    _input, template, output = read_parameters()
+    _input, template, exceptions, output = read_parameters()
 
-    translations = read_po_file(_input)
+    exception_data = _load_exceptions(exceptions)
+
+    translations = read_po_file(_input, exception_data)
 
     ctx = {
         'rules': translations,
