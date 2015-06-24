@@ -556,11 +556,11 @@ msgstr "fijià"
 
 #. name for fil
 msgid "Filipino; Pilipino"
-msgstr "filipi; pilipino"
+msgstr "filipí; tagal"
 
 #. name for fin, fi
 msgid "Finnish"
-msgstr "finès"
+msgstr "finès; finlandès"
 
 #. name for fiu
 msgid "Finno-Ugrian languages"
@@ -1244,7 +1244,7 @@ msgstr "ndebele meridional"
 
 #. name for nde, nd
 msgid "Ndebele, North; North Ndebele"
-msgstr "ndebele septrentional"
+msgstr "ndebele septentrional"
 
 #. name for ndo, ng
 msgid "Ndonga"
@@ -1300,7 +1300,7 @@ msgstr "nko"
 
 #. name for nso
 msgid "Pedi; Sepedi; Northern Sotho"
-msgstr "pedi; sepedi; sotho septrentional"
+msgstr "pedi; sepedi; sotho septentrional"
 
 #. name for nub
 msgid "Nubian languages"
@@ -1580,7 +1580,7 @@ msgstr "sami meridional"
 
 #. name for sme, se
 msgid "Northern Sami"
-msgstr "sami septrentional"
+msgstr "sami septentrional"
 
 #. name for smi
 msgid "Sami languages"
@@ -1912,7 +1912,7 @@ msgstr "calmuc"
 
 #. name for xho, xh
 msgid "Xhosa"
-msgstr "xosa"
+msgstr "xosa; xhosa"
 
 #. name for yao
 msgid "Yao"
