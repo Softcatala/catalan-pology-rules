@@ -130,7 +130,7 @@ hint="El nom de llengua «Apache languages» es tradueix per «llengües apatxes
 {^Arabic$}i
 id="language-Arabic"
 valid msgstr="àrab"
-hint="El nom de llengua «Arabic» es tradueix per «àrab»."
+hint="El nom de llengua «Arabic» es tradueix per «àrab». En alguns contextos pot fer referència a l'alfabet àrab en comptes de la llengua."
 
 {^Official Aramaic (700-300 BCE)$}i
 id="language-Official Aramaic (700-300 BCE)"
@@ -2965,18 +2965,6 @@ hint="El nom de llengua «Zulu» es tradueix per «zulu»."
 id="language-Zuni"
 valid msgstr="zuni"
 hint="El nom de llengua «Zuni» es tradueix per «zuni»."
-
-{^No linguistic content$}i
-id="language-No linguistic content"
-valid msgstr="contingut no lingüístic"
-valid msgstr="no aplicable"
-hint="El nom de llengua «No linguistic content» es tradueix per «contingut no lingüístic; no aplicable»."
-
-{^Not applicable$}i
-id="language-Not applicable"
-valid msgstr="contingut no lingüístic"
-valid msgstr="no aplicable"
-hint="El nom de llengua «Not applicable» es tradueix per «contingut no lingüístic; no aplicable»."
 
 {^Zaza$}i
 id="language-Zaza"
