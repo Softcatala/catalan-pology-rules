@@ -1,5 +1,5 @@
 --- iso_639-3.57.ca.org	2015-06-23 08:30:49.830464639 +0200
-+++ iso_639-3.57.ca.po	2015-06-24 15:06:31.360829404 +0200
++++ iso_639-3.57.ca.po	2015-06-24 16:24:32.591795346 +0200
 @@ -196,7 +196,7 @@
  
  #. name for eus, eu
@@ -95,6 +95,15 @@
  
  #. name for tel, te
  msgid "Telugu"
+@@ -1732,7 +1732,7 @@
+ 
+ #. name for tha, th
+ msgid "Thai"
+-msgstr "tai"
++msgstr "tai; thai"
+ 
+ #. name for bod, bo
+ msgid "Tibetan"
 @@ -1912,7 +1912,7 @@
  
  #. name for xho, xh
