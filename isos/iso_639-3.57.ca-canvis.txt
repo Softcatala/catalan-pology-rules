@@ -1,5 +1,5 @@
 --- iso_639-3.57.ca.org	2015-06-23 08:30:49.830464639 +0200
-+++ iso_639-3.57.ca.po	2015-06-24 19:56:14.677333685 +0200
++++ iso_639-3.57.ca.po	2015-06-24 23:22:41.355348688 +0200
 @@ -196,7 +196,7 @@
  
  #. name for eus, eu
@@ -100,7 +100,7 @@
  #. name for swa, sw
  msgid "Swahili"
 -msgstr "swahili"
-+msgstr "swahili; suahili; ruandès"
++msgstr "swahili; suahili"
  
  #. name for swe, sv
  msgid "Swedish"
@@ -136,7 +136,7 @@
  #. name for zgh
  msgid "Standard Moroccan Tamazight"
 -msgstr ""
-+msgstr "berber; amaziga"
++msgstr "berber; amazic"
  
  #. name for zha, za
  msgid "Zhuang; Chuang"

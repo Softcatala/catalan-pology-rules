@@ -2540,8 +2540,7 @@ hint="El nom de llengua «Sumerian» es tradueix per «sumeri»."
 id="iso_639-Swahili"
 valid msgstr="swahili"
 valid msgstr="suahili"
-valid msgstr="ruandès"
-hint="El nom de llengua «Swahili» es tradueix per «swahili; suahili; ruandès»."
+hint="El nom de llengua «Swahili» es tradueix per «swahili; suahili»."
 
 {^Swedish$}i
 id="iso_639-Swedish"
@@ -2933,8 +2932,8 @@ hint="El nom de llengua «Zenaga» es tradueix per «zenaga»."
 {^Standard Moroccan Tamazight$}i
 id="iso_639-Standard Moroccan Tamazight"
 valid msgstr="berber"
-valid msgstr="amaziga"
-hint="El nom de llengua «Standard Moroccan Tamazight» es tradueix per «berber; amaziga»."
+valid msgstr="amazic"
+hint="El nom de llengua «Standard Moroccan Tamazight» es tradueix per «berber; amazic»."
 
 {^Zhuang$}i
 id="iso_639-Zhuang"

@@ -1676,7 +1676,7 @@ msgstr "sumeri"
 
 #. name for swa, sw
 msgid "Swahili"
-msgstr "swahili; suahili; ruandès"
+msgstr "swahili; suahili"
 
 #. name for swe, sv
 msgid "Swedish"
@@ -1948,7 +1948,7 @@ msgstr "zenaga"
 
 #. name for zgh
 msgid "Standard Moroccan Tamazight"
-msgstr "berber; amaziga"
+msgstr "berber; amazic"
 
 #. name for zha, za
 msgid "Zhuang; Chuang"
