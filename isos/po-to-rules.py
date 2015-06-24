@@ -20,6 +20,7 @@
 
 import polib
 import pystache
+from optparse import OptionParser
 
 class Target(object):
 
@@ -62,18 +63,43 @@ def process_template(template, filename, ctx):
     f.write(s.encode("utf-8"))
     f.close()
 
+def read_parameters():
+    parser = OptionParser()
+
+    parser.add_option("-i", "--input",
+                      action="store", type="string", dest="input",
+                      help="Input PO file")
+
+    parser.add_option("-t", "--template",
+                      action="store", type="string", dest="template",
+                      help="Mustache template")
+
+    parser.add_option("-o", "--output",
+                      action="store", type="string", dest="output",
+                      help="Directory to find the TMX files")
+
+    (options, args) = parser.parse_args()
+
+    if options.input is None or options.template is None \
+       or options.output is None:
+        parser.error('You need to provide input, template and output files')
+
+    return (options.input, options.template, options.output)
+
 
 def main():
 
     print "Converts a PO file into a Pology rules file"
 
-    translations = read_po_file("iso_639-3.57.ca.po")
+    _input, template, output = read_parameters()
+
+    translations = read_po_file(_input)
 
     ctx = {
         'rules': translations,
     }
 
-    process_template("iso_639.mustache", "iso_639.rules", ctx)
+    process_template(template, output, ctx)
 
 if __name__ == "__main__":
     main()
