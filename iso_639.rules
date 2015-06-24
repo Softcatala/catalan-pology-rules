@@ -1767,11 +1767,6 @@ id="language-Mossi"
 valid msgstr="mossi"
 hint="El nom de llengua «Mossi» es tradueix per «mossi»."
 
-{^Multiple languages$}i
-id="language-Multiple languages"
-valid msgstr="diferents llengües"
-hint="El nom de llengua «Multiple languages» es tradueix per «diferents llengües»."
-
 {^Munda languages$}i
 id="language-Munda languages"
 valid msgstr="llengües mundes"
