@@ -765,8 +765,8 @@ hint="El nom de llengua «Dyula» es tradueix per «dyula»."
 
 {^Dzongkha$}i
 id="language-Dzongkha"
-valid msgstr="bhutanès"
-hint="El nom de llengua «Dzongkha» es tradueix per «bhutanès»."
+valid msgstr="dzongkha"
+hint="El nom de llengua «Dzongkha» es tradueix per «dzongkha»."
 
 {^Efik$}i
 id="language-Efik"
@@ -1070,8 +1070,8 @@ hint="El nom de llengua «Haitian Creole» es tradueix per «haitià; haitià cr
 
 {^Hausa$}i
 id="language-Hausa"
-valid msgstr="hausa"
-hint="El nom de llengua «Hausa» es tradueix per «hausa»."
+valid msgstr="haussa"
+hint="El nom de llengua «Hausa» es tradueix per «haussa»."
 
 {^Hawaiian$}i
 id="language-Hawaiian"

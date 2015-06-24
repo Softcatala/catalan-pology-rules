@@ -496,7 +496,7 @@ msgstr "dyula"
 
 #. name for dzo, dz
 msgid "Dzongkha"
-msgstr "bhutanès"
+msgstr "dzongkha"
 
 #. name for efi
 msgid "Efik"
@@ -708,7 +708,7 @@ msgstr "haitià; haitià crioll"
 
 #. name for hau, ha
 msgid "Hausa"
-msgstr "hausa"
+msgstr "haussa"
 
 #. name for haw
 msgid "Hawaiian"
