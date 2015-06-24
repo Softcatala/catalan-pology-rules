@@ -13,7 +13,7 @@
 include file="filter.include"
 
 # Remove accelerator and  hyphen inside words.
-addFilterRegex match="(\&|\-)" on="pmsgid,pmsgstr"
+addFilterRegex match="(_|~|&)" on="pmsgid,pmsgstr"
 
 {\bPerceptual\b}i
 id="t-sc-perceptual"
