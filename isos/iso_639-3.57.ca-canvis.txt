@@ -1,5 +1,5 @@
 --- iso_639-3.57.ca.org	2015-06-23 08:30:49.830464639 +0200
-+++ iso_639-3.57.ca.po	2015-06-24 14:34:35.235750068 +0200
++++ iso_639-3.57.ca.po	2015-06-24 15:06:31.360829404 +0200
 @@ -196,7 +196,7 @@
  
  #. name for eus, eu
@@ -9,6 +9,15 @@
  
  #. name for bas
  msgid "Basa"
+@@ -224,7 +224,7 @@
+ 
+ #. common_name for ben, bn
+ msgid "Bangla"
+-msgstr ""
++msgstr "Bengalí"
+ 
+ #. name for ber
+ msgid "Berber languages"
 @@ -556,11 +556,11 @@
  
  #. name for fil
@@ -95,3 +104,12 @@
  
  #. name for yao
  msgid "Yao"
+@@ -1948,7 +1948,7 @@
+ 
+ #. name for zgh
+ msgid "Standard Moroccan Tamazight"
+-msgstr ""
++msgstr "berber; amaziga"
+ 
+ #. name for zha, za
+ msgid "Zhuang; Chuang"

@@ -224,7 +224,7 @@ msgstr "bengalí"
 
 #. common_name for ben, bn
 msgid "Bangla"
-msgstr ""
+msgstr "Bengalí"
 
 #. name for ber
 msgid "Berber languages"
@@ -1948,7 +1948,7 @@ msgstr "zenaga"
 
 #. name for zgh
 msgid "Standard Moroccan Tamazight"
-msgstr ""
+msgstr "berber; amaziga"
 
 #. name for zha, za
 msgid "Zhuang; Chuang"
