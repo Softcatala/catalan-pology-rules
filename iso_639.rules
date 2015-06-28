@@ -94,8 +94,8 @@ hint="El nom de llengua «Albanian» es tradueix per «albanès»."
 
 {^Aleut$}i
 id="iso_639-Aleut"
-valid msgstr="aleutià"
-hint="El nom de llengua «Aleut» es tradueix per «aleutià»."
+valid msgstr="aleuta"
+hint="El nom de llengua «Aleut» es tradueix per «aleuta»."
 
 {^Algonquian languages$}i
 id="iso_639-Algonquian languages"
@@ -271,8 +271,8 @@ hint="El nom de llengua «Bashkir» es tradueix per «baixkir»."
 
 {^Baluchi$}i
 id="iso_639-Baluchi"
-valid msgstr="balutxí"
-hint="El nom de llengua «Baluchi» es tradueix per «balutxí»."
+valid msgstr="balutxi"
+hint="El nom de llengua «Baluchi» es tradueix per «balutxi»."
 
 {^Bambara$}i
 id="iso_639-Bambara"
@@ -484,7 +484,8 @@ hint="El nom de llengua «Chamorro» es tradueix per «chamorro; chamoru»."
 {^Chibcha$}i
 id="iso_639-Chibcha"
 valid msgstr="chibcha"
-hint="El nom de llengua «Chibcha» es tradueix per «chibcha»."
+valid msgstr="muisca"
+hint="El nom de llengua «Chibcha» es tradueix per «chibcha; muisca»."
 
 {^Chechen$}i
 id="iso_639-Chechen"
@@ -588,9 +589,9 @@ hint="El nom de llengua «Chuvash» es tradueix per «txuvaix»."
 
 {^Cheyenne$}i
 id="iso_639-Cheyenne"
-valid msgstr="xeienne"
+valid msgstr="xeiene"
 valid msgstr="cheyenne"
-hint="El nom de llengua «Cheyenne» es tradueix per «xeienne; cheyenne»."
+hint="El nom de llengua «Cheyenne» es tradueix per «xeiene; cheyenne»."
 
 {^Chamic languages$}i
 id="iso_639-Chamic languages"
@@ -1750,12 +1751,14 @@ hint="El nom de llengua «Mohawk» es tradueix per «mohawk»."
 {^Moldavian$}i
 id="iso_639-Moldavian"
 valid msgstr="moldau"
-hint="El nom de llengua «Moldavian» es tradueix per «moldau»."
+valid msgstr="romanès"
+hint="El nom de llengua «Moldavian» es tradueix per «moldau; romanès»."
 
 {^Moldovan$}i
 id="iso_639-Moldovan"
 valid msgstr="moldau"
-hint="El nom de llengua «Moldovan» es tradueix per «moldau»."
+valid msgstr="romanès"
+hint="El nom de llengua «Moldovan» es tradueix per «moldau; romanès»."
 
 {^Mongolian$}i
 id="iso_639-Mongolian"
@@ -2127,8 +2130,10 @@ hint="El nom de llengua «Punjabi» es tradueix per «panjabi»."
 
 {^Papiamento$}i
 id="iso_639-Papiamento"
+valid msgstr="papiamentu"
 valid msgstr="papiamento"
-hint="El nom de llengua «Papiamento» es tradueix per «papiamento»."
+valid msgstr="papiament"
+hint="El nom de llengua «Papiamento» es tradueix per «papiamentu; papiamento; papiament»."
 
 {^Palauan$}i
 id="iso_639-Palauan"

@@ -1,5 +1,23 @@
 --- iso_639-3.57.ca.org	2015-06-23 08:30:49.830464639 +0200
-+++ iso_639-3.57.ca.po	2015-06-24 23:22:41.355348688 +0200
++++ iso_639-3.57.ca.po	2015-06-28 22:04:29.773497650 +0200
+@@ -76,7 +76,7 @@
+ 
+ #. name for ale
+ msgid "Aleut"
+-msgstr "aleutià"
++msgstr "aleuta"
+ 
+ #. name for alg
+ msgid "Algonquian languages"
+@@ -184,7 +184,7 @@
+ 
+ #. name for bal
+ msgid "Baluchi"
+-msgstr "balutxí"
++msgstr "balutxi"
+ 
+ #. name for bam, bm
+ msgid "Bambara"
 @@ -196,7 +196,7 @@
  
  #. name for eus, eu
@@ -18,6 +36,24 @@
  
  #. name for ber
  msgid "Berber languages"
+@@ -328,7 +328,7 @@
+ 
+ #. name for chb
+ msgid "Chibcha"
+-msgstr "chibcha"
++msgstr "chibcha; muisca"
+ 
+ #. name for che, ce
+ msgid "Chechen"
+@@ -376,7 +376,7 @@
+ 
+ #. name for chy
+ msgid "Cheyenne"
+-msgstr "xeienne; cheyenne"
++msgstr "xeiene; cheyenne"
+ 
+ #. name for cmc
+ msgid "Chamic languages"
 @@ -496,7 +496,7 @@
  
  #. name for dzo, dz
@@ -68,6 +104,15 @@
  
  #. name for mad
  msgid "Madurese"
+@@ -1180,7 +1180,7 @@
+ 
+ #. name for mol, mo
+ msgid "Moldavian; Moldovan"
+-msgstr "moldau"
++msgstr "moldau; romanès"
+ 
+ #. name for mon, mn
+ msgid "Mongolian"
 @@ -1244,7 +1244,7 @@
  
  #. name for nde, nd
@@ -86,6 +131,24 @@
  
  #. name for nub
  msgid "Nubian languages"
+@@ -1369,7 +1369,7 @@
+ #. name for pag
+ msgid "Pangasinan"
+ msgstr "pangasinan"
+-
++Papiamento
+ #. name for pal
+ msgid "Pahlavi"
+ msgstr "pahlavi"
+@@ -1384,7 +1384,7 @@
+ 
+ #. name for pap
+ msgid "Papiamento"
+-msgstr "papiamento"
++msgstr "papiamentu; papiamento; papiament"
+ 
+ #. name for pau
+ msgid "Palauan"
 @@ -1580,7 +1580,7 @@
  
  #. name for sme, se

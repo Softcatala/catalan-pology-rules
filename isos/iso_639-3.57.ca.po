@@ -76,7 +76,7 @@ msgstr "albanès"
 
 #. name for ale
 msgid "Aleut"
-msgstr "aleutià"
+msgstr "aleuta"
 
 #. name for alg
 msgid "Algonquian languages"
@@ -184,7 +184,7 @@ msgstr "baixkir"
 
 #. name for bal
 msgid "Baluchi"
-msgstr "balutxí"
+msgstr "balutxi"
 
 #. name for bam, bm
 msgid "Bambara"
@@ -328,7 +328,7 @@ msgstr "chamorro; chamoru"
 
 #. name for chb
 msgid "Chibcha"
-msgstr "chibcha"
+msgstr "chibcha; muisca"
 
 #. name for che, ce
 msgid "Chechen"
@@ -376,7 +376,7 @@ msgstr "txuvaix"
 
 #. name for chy
 msgid "Cheyenne"
-msgstr "xeienne; cheyenne"
+msgstr "xeiene; cheyenne"
 
 #. name for cmc
 msgid "Chamic languages"
@@ -1180,7 +1180,7 @@ msgstr "mohawk"
 
 #. name for mol, mo
 msgid "Moldavian; Moldovan"
-msgstr "moldau"
+msgstr "moldau; romanès"
 
 #. name for mon, mn
 msgid "Mongolian"
@@ -1384,7 +1384,7 @@ msgstr "panjabi"
 
 #. name for pap
 msgid "Papiamento"
-msgstr "papiamento"
+msgstr "papiamentu; papiamento; papiament"
 
 #. name for pau
 msgid "Palauan"
