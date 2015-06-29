@@ -224,7 +224,7 @@ msgstr "bengalí"
 
 #. common_name for ben, bn
 msgid "Bangla"
-msgstr "Bengalí"
+msgstr "bengalí"
 
 #. name for ber
 msgid "Berber languages"
@@ -1328,7 +1328,7 @@ msgstr "nyoro"
 
 #. name for nzi
 msgid "Nzima"
-msgstr "Nzema; Nzima; Appolo"
+msgstr "nzema; nzima; appolo"
 
 #. name for oci, oc
 msgid "Occitan (post 1500)"

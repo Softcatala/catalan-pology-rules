@@ -330,8 +330,8 @@ hint="El nom de llengua «Bengali» es tradueix per «bengalí»."
 
 {^Bangla$}i
 id="iso_639-Bangla"
-valid msgstr="Bengalí"
-hint="El nom de llengua «Bangla» es tradueix per «Bengalí»."
+valid msgstr="bengalí"
+hint="El nom de llengua «Bangla» es tradueix per «bengalí»."
 
 {^Berber languages$}i
 id="iso_639-Berber languages"
@@ -2038,10 +2038,10 @@ hint="El nom de llengua «Nyoro» es tradueix per «nyoro»."
 
 {^Nzima$}i
 id="iso_639-Nzima"
-valid msgstr="Nzema"
-valid msgstr="Nzima"
-valid msgstr="Appolo"
-hint="El nom de llengua «Nzima» es tradueix per «Nzema; Nzima; Appolo»."
+valid msgstr="nzema"
+valid msgstr="nzima"
+valid msgstr="appolo"
+hint="El nom de llengua «Nzima» es tradueix per «nzema; nzima; appolo»."
 
 {^Occitan (post 1500)$}i
 id="iso_639-Occitan (post 1500)"

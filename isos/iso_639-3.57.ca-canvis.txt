@@ -1,5 +1,5 @@
 --- iso_639-3.57.ca.org	2015-06-29 19:14:50.408740203 +0200
-+++ iso_639-3.57.ca.po	2015-06-29 19:13:08.893596711 +0200
++++ iso_639-3.57.ca.po	2015-06-29 19:20:11.162363628 +0200
 @@ -76,7 +76,7 @@
  
  #. name for ale
@@ -32,7 +32,7 @@
  #. common_name for ben, bn
  msgid "Bangla"
 -msgstr ""
-+msgstr "Bengalí"
++msgstr "bengalí"
  
  #. name for ber
  msgid "Berber languages"
@@ -131,6 +131,15 @@
  
  #. name for nub
  msgid "Nubian languages"
+@@ -1328,7 +1328,7 @@
+ 
+ #. name for nzi
+ msgid "Nzima"
+-msgstr "Nzema; Nzima; Appolo"
++msgstr "nzema; nzima; appolo"
+ 
+ #. name for oci, oc
+ msgid "Occitan (post 1500)"
 @@ -1384,7 +1384,7 @@
  
  #. name for pap
