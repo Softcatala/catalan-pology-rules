@@ -1,5 +1,5 @@
---- iso_639-3.57.ca.org	2015-06-23 08:30:49.830464639 +0200
-+++ iso_639-3.57.ca.po	2015-06-28 22:04:29.773497650 +0200
+--- iso_639-3.57.ca.org	2015-06-29 19:14:50.408740203 +0200
++++ iso_639-3.57.ca.po	2015-06-29 19:13:08.893596711 +0200
 @@ -76,7 +76,7 @@
  
  #. name for ale
@@ -131,15 +131,6 @@
  
  #. name for nub
  msgid "Nubian languages"
-@@ -1369,7 +1369,7 @@
- #. name for pag
- msgid "Pangasinan"
- msgstr "pangasinan"
--
-+Papiamento
- #. name for pal
- msgid "Pahlavi"
- msgstr "pahlavi"
 @@ -1384,7 +1384,7 @@
  
  #. name for pap
