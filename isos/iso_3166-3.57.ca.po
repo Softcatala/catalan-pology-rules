@@ -6,8 +6,6 @@
 # Alastair McKinstry <mckinstry@computer.org>, 2001.
 # Orestes Mas i Casals <orestes@tsc.upc.es>, 2004-2006. (orestes: He usat la nomenclatura de http://www.traduim.com/)
 # Toni Hermoso Pulido <toniher@softcatala.org>, 2010-2012.
-# Jordi Mas i Hernàndez <jmas@softcatala.org>, 2015
-
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_3166 3.33\n"

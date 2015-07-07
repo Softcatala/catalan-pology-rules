@@ -7,6 +7,7 @@
 # Alastair McKinstry <mckinstry@computer.org>, 2001.
 # Toni Hermoso Pulido <toniher@softcatala.cat>, 2010.
 # Toni Hermoso Pulido <toniher@softcatala.org>, 2010.
+# Jordi Mas i Hernàndez <jmas@softcatala.org>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_639 3.20\n"
