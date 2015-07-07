@@ -277,7 +277,8 @@ hint="El nom de llengua «Baluchi» es tradueix per «balutxi»."
 {^Bambara$}i
 id="iso_639-Bambara"
 valid msgstr="bambara"
-hint="El nom de llengua «Bambara» es tradueix per «bambara»."
+valid msgstr="mandinga"
+hint="El nom de llengua «Bambara» es tradueix per «bambara; mandinga»."
 
 {^Balinese$}i
 id="iso_639-Balinese"
@@ -1192,7 +1193,8 @@ hint="El nom de llengua «Ijo languages» es tradueix per «llengües ijo»."
 {^Inuktitut$}i
 id="iso_639-Inuktitut"
 valid msgstr="inuktitut"
-hint="El nom de llengua «Inuktitut» es tradueix per «inuktitut»."
+valid msgstr="inuit"
+hint="El nom de llengua «Inuktitut» es tradueix per «inuktitut; inuit»."
 
 {^Interlingue$}i
 id="iso_639-Interlingue"
@@ -1307,13 +1309,15 @@ hint="El nom de llengua «Jingpho» es tradueix per «kachin; jingpho»."
 id="iso_639-Kalaallisut"
 valid msgstr="grenlandès"
 valid msgstr="groenlandès"
-hint="El nom de llengua «Kalaallisut» es tradueix per «grenlandès; groenlandès»."
+valid msgstr="inuit"
+hint="El nom de llengua «Kalaallisut» es tradueix per «grenlandès; groenlandès; inuit»."
 
 {^Greenlandic$}i
 id="iso_639-Greenlandic"
 valid msgstr="grenlandès"
 valid msgstr="groenlandès"
-hint="El nom de llengua «Greenlandic» es tradueix per «grenlandès; groenlandès»."
+valid msgstr="inuit"
+hint="El nom de llengua «Greenlandic» es tradueix per «grenlandès; groenlandès; inuit»."
 
 {^Kamba$}i
 id="iso_639-Kamba"
@@ -1394,7 +1398,8 @@ hint="El nom de llengua «Gikuyu» es tradueix per «kikuiu»."
 {^Kinyarwanda$}i
 id="iso_639-Kinyarwanda"
 valid msgstr="kinyarwanda"
-hint="El nom de llengua «Kinyarwanda» es tradueix per «kinyarwanda»."
+valid msgstr="ruandès"
+hint="El nom de llengua «Kinyarwanda» es tradueix per «kinyarwanda; ruandès»."
 
 {^Kirghiz$}i
 id="iso_639-Kirghiz"
@@ -2504,7 +2509,8 @@ hint="El nom de llengua «Sranan Tongo» es tradueix per «sranan»."
 {^Serbian$}i
 id="iso_639-Serbian"
 valid msgstr="serbi"
-hint="El nom de llengua «Serbian» es tradueix per «serbi»."
+valid msgstr="serbocroat"
+hint="El nom de llengua «Serbian» es tradueix per «serbi; serbocroat»."
 
 {^Serer$}i
 id="iso_639-Serer"
@@ -2519,7 +2525,8 @@ hint="El nom de llengua «Nilo-Saharan languages» es tradueix per «llengües n
 {^Swati$}i
 id="iso_639-Swati"
 valid msgstr="siswati"
-hint="El nom de llengua «Swati» es tradueix per «siswati»."
+valid msgstr="swati"
+hint="El nom de llengua «Swati» es tradueix per «siswati; swati»."
 
 {^Sukuma$}i
 id="iso_639-Sukuma"
@@ -2615,7 +2622,8 @@ hint="El nom de llengua «Tajik» es tradueix per «tadjik»."
 id="iso_639-Tagalog"
 valid msgstr="tagal"
 valid msgstr="tagàlog"
-hint="El nom de llengua «Tagalog» es tradueix per «tagal; tagàlog»."
+valid msgstr="filipí"
+hint="El nom de llengua «Tagalog» es tradueix per «tagal; tagàlog; filipí»."
 
 {^Thai$}i
 id="iso_639-Thai"
