@@ -1,6 +1,14 @@
 --- iso_639-3.57.ca.org	2015-06-29 19:14:50.408740203 +0200
-+++ iso_639-3.57.ca.po	2015-07-07 22:19:04.051352314 +0200
-@@ -76,7 +76,7 @@
++++ iso_639-3.57.ca.po	2015-07-07 22:25:38.992866154 +0200
+@@ -7,6 +7,7 @@
+ # Alastair McKinstry <mckinstry@computer.org>, 2001.
+ # Toni Hermoso Pulido <toniher@softcatala.cat>, 2010.
+ # Toni Hermoso Pulido <toniher@softcatala.org>, 2010.
++# Jordi Mas i Hernàndez <jmas@softcatala.org>, 2015
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: iso_639 3.20\n"
+@@ -76,7 +77,7 @@
  
  #. name for ale
  msgid "Aleut"
@@ -9,7 +17,7 @@
  
  #. name for alg
  msgid "Algonquian languages"
-@@ -184,11 +184,11 @@
+@@ -184,11 +185,11 @@
  
  #. name for bal
  msgid "Baluchi"
@@ -23,7 +31,7 @@
  
  #. name for ban
  msgid "Balinese"
-@@ -196,7 +196,7 @@
+@@ -196,7 +197,7 @@
  
  #. name for eus, eu
  msgid "Basque"
@@ -32,7 +40,7 @@
  
  #. name for bas
  msgid "Basa"
-@@ -224,7 +224,7 @@
+@@ -224,7 +225,7 @@
  
  #. common_name for ben, bn
  msgid "Bangla"
@@ -41,7 +49,7 @@
  
  #. name for ber
  msgid "Berber languages"
-@@ -328,7 +328,7 @@
+@@ -328,7 +329,7 @@
  
  #. name for chb
  msgid "Chibcha"
@@ -50,7 +58,7 @@
  
  #. name for che, ce
  msgid "Chechen"
-@@ -376,7 +376,7 @@
+@@ -376,7 +377,7 @@
  
  #. name for chy
  msgid "Cheyenne"
@@ -59,7 +67,7 @@
  
  #. name for cmc
  msgid "Chamic languages"
-@@ -496,7 +496,7 @@
+@@ -496,7 +497,7 @@
  
  #. name for dzo, dz
  msgid "Dzongkha"
@@ -68,7 +76,7 @@
  
  #. name for efi
  msgid "Efik"
-@@ -556,11 +556,11 @@
+@@ -556,11 +557,11 @@
  
  #. name for fil
  msgid "Filipino; Pilipino"
@@ -82,7 +90,7 @@
  
  #. name for fiu
  msgid "Finno-Ugrian languages"
-@@ -708,7 +708,7 @@
+@@ -708,7 +709,7 @@
  
  #. name for hau, ha
  msgid "Hausa"
@@ -91,7 +99,7 @@
  
  #. name for haw
  msgid "Hawaiian"
-@@ -788,7 +788,7 @@
+@@ -788,7 +789,7 @@
  
  #. name for iku, iu
  msgid "Inuktitut"
@@ -100,7 +108,7 @@
  
  #. name for ile, ie
  msgid "Interlingue; Occidental"
-@@ -868,7 +868,7 @@
+@@ -868,7 +869,7 @@
  
  #. name for kal, kl
  msgid "Kalaallisut; Greenlandic"
@@ -109,7 +117,7 @@
  
  #. name for kam
  msgid "Kamba"
-@@ -876,7 +876,7 @@
+@@ -876,7 +877,7 @@
  
  #. name for kan, kn
  msgid "Kannada"
@@ -118,7 +126,7 @@
  
  #. name for kar
  msgid "Karen languages"
-@@ -924,7 +924,7 @@
+@@ -924,7 +925,7 @@
  
  #. name for kin, rw
  msgid "Kinyarwanda"
@@ -127,7 +135,7 @@
  
  #. name for kir, ky
  msgid "Kirghiz; Kyrgyz"
-@@ -1072,7 +1072,7 @@
+@@ -1072,7 +1073,7 @@
  
  #. name for mkd, mk
  msgid "Macedonian"
@@ -136,7 +144,7 @@
  
  #. name for mad
  msgid "Madurese"
-@@ -1180,7 +1180,7 @@
+@@ -1180,7 +1181,7 @@
  
  #. name for mol, mo
  msgid "Moldavian; Moldovan"
@@ -145,7 +153,7 @@
  
  #. name for mon, mn
  msgid "Mongolian"
-@@ -1244,7 +1244,7 @@
+@@ -1244,7 +1245,7 @@
  
  #. name for nde, nd
  msgid "Ndebele, North; North Ndebele"
@@ -154,7 +162,7 @@
  
  #. name for ndo, ng
  msgid "Ndonga"
-@@ -1300,7 +1300,7 @@
+@@ -1300,7 +1301,7 @@
  
  #. name for nso
  msgid "Pedi; Sepedi; Northern Sotho"
@@ -163,7 +171,7 @@
  
  #. name for nub
  msgid "Nubian languages"
-@@ -1328,7 +1328,7 @@
+@@ -1328,7 +1329,7 @@
  
  #. name for nzi
  msgid "Nzima"
@@ -172,7 +180,7 @@
  
  #. name for oci, oc
  msgid "Occitan (post 1500)"
-@@ -1384,7 +1384,7 @@
+@@ -1384,7 +1385,7 @@
  
  #. name for pap
  msgid "Papiamento"
@@ -181,7 +189,7 @@
  
  #. name for pau
  msgid "Palauan"
-@@ -1580,7 +1580,7 @@
+@@ -1580,7 +1581,7 @@
  
  #. name for sme, se
  msgid "Northern Sami"
@@ -190,7 +198,7 @@
  
  #. name for smi
  msgid "Sami languages"
-@@ -1644,7 +1644,7 @@
+@@ -1644,7 +1645,7 @@
  
  #. name for srp, sr
  msgid "Serbian"
@@ -199,7 +207,7 @@
  
  #. name for srr
  msgid "Serer"
-@@ -1656,7 +1656,7 @@
+@@ -1656,7 +1657,7 @@
  
  #. name for ssw, ss
  msgid "Swati"
@@ -208,7 +216,7 @@
  
  #. name for suk
  msgid "Sukuma"
-@@ -1676,7 +1676,7 @@
+@@ -1676,7 +1677,7 @@
  
  #. name for swa, sw
  msgid "Swahili"
@@ -217,7 +225,7 @@
  
  #. name for swe, sv
  msgid "Swedish"
-@@ -1704,7 +1704,7 @@
+@@ -1704,7 +1705,7 @@
  
  #. name for tat, tt
  msgid "Tatar"
@@ -226,7 +234,7 @@
  
  #. name for tel, te
  msgid "Telugu"
-@@ -1728,11 +1728,11 @@
+@@ -1728,11 +1729,11 @@
  
  #. name for tgl, tl
  msgid "Tagalog"
@@ -240,7 +248,7 @@
  
  #. name for bod, bo
  msgid "Tibetan"
-@@ -1912,7 +1912,7 @@
+@@ -1912,7 +1913,7 @@
  
  #. name for xho, xh
  msgid "Xhosa"
@@ -249,7 +257,7 @@
  
  #. name for yao
  msgid "Yao"
-@@ -1948,7 +1948,7 @@
+@@ -1948,7 +1949,7 @@
  
  #. name for zgh
  msgid "Standard Moroccan Tamazight"
