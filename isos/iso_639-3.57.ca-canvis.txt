@@ -1,5 +1,5 @@
 --- iso_639-3.57.ca.org	2015-06-29 19:14:50.408740203 +0200
-+++ iso_639-3.57.ca.po	2015-07-07 22:25:38.992866154 +0200
++++ iso_639-3.57.ca.po	2015-07-09 22:46:34.202644545 +0200
 @@ -7,6 +7,7 @@
  # Alastair McKinstry <mckinstry@computer.org>, 2001.
  # Toni Hermoso Pulido <toniher@softcatala.cat>, 2010.
@@ -17,7 +17,7 @@
  
  #. name for alg
  msgid "Algonquian languages"
-@@ -184,11 +185,11 @@
+@@ -184,7 +185,7 @@
  
  #. name for bal
  msgid "Baluchi"
@@ -26,11 +26,6 @@
  
  #. name for bam, bm
  msgid "Bambara"
--msgstr "bambara"
-+msgstr "bambara; mandinga"
- 
- #. name for ban
- msgid "Balinese"
 @@ -196,7 +197,7 @@
  
  #. name for eus, eu
@@ -99,24 +94,6 @@
  
  #. name for haw
  msgid "Hawaiian"
-@@ -788,7 +789,7 @@
- 
- #. name for iku, iu
- msgid "Inuktitut"
--msgstr "inuktitut"
-+msgstr "inuktitut; inuit"
- 
- #. name for ile, ie
- msgid "Interlingue; Occidental"
-@@ -868,7 +869,7 @@
- 
- #. name for kal, kl
- msgid "Kalaallisut; Greenlandic"
--msgstr "grenlandès; groenlandès"
-+msgstr "grenlandès; groenlandès; inuit"
- 
- #. name for kam
- msgid "Kamba"
 @@ -876,7 +877,7 @@
  
  #. name for kan, kn
@@ -144,15 +121,6 @@
  
  #. name for mad
  msgid "Madurese"
-@@ -1180,7 +1181,7 @@
- 
- #. name for mol, mo
- msgid "Moldavian; Moldovan"
--msgstr "moldau"
-+msgstr "moldau; romanès"
- 
- #. name for mon, mn
- msgid "Mongolian"
 @@ -1244,7 +1245,7 @@
  
  #. name for nde, nd
@@ -198,15 +166,6 @@
  
  #. name for smi
  msgid "Sami languages"
-@@ -1644,7 +1645,7 @@
- 
- #. name for srp, sr
- msgid "Serbian"
--msgstr "serbi"
-+msgstr "serbi; serbocroat"
- 
- #. name for srr
- msgid "Serer"
 @@ -1656,7 +1657,7 @@
  
  #. name for ssw, ss
@@ -234,12 +193,7 @@
  
  #. name for tel, te
  msgid "Telugu"
-@@ -1728,11 +1729,11 @@
- 
- #. name for tgl, tl
- msgid "Tagalog"
--msgstr "tagal; tagàlog"
-+msgstr "tagal; tagàlog; filipí"
+@@ -1732,7 +1733,7 @@
  
  #. name for tha, th
  msgid "Thai"
@@ -262,7 +216,7 @@
  #. name for zgh
  msgid "Standard Moroccan Tamazight"
 -msgstr ""
-+msgstr "berber; amazic"
++msgstr "amazic"
  
  #. name for zha, za
  msgid "Zhuang; Chuang"

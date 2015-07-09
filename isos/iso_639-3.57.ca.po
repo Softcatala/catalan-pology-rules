@@ -189,7 +189,7 @@ msgstr "balutxi"
 
 #. name for bam, bm
 msgid "Bambara"
-msgstr "bambara; mandinga"
+msgstr "bambara"
 
 #. name for ban
 msgid "Balinese"
@@ -789,7 +789,7 @@ msgstr "llengües ijo"
 
 #. name for iku, iu
 msgid "Inuktitut"
-msgstr "inuktitut; inuit"
+msgstr "inuktitut"
 
 #. name for ile, ie
 msgid "Interlingue; Occidental"
@@ -869,7 +869,7 @@ msgstr "kachin; jingpho"
 
 #. name for kal, kl
 msgid "Kalaallisut; Greenlandic"
-msgstr "grenlandès; groenlandès; inuit"
+msgstr "grenlandès; groenlandès"
 
 #. name for kam
 msgid "Kamba"
@@ -1181,7 +1181,7 @@ msgstr "mohawk"
 
 #. name for mol, mo
 msgid "Moldavian; Moldovan"
-msgstr "moldau; romanès"
+msgstr "moldau"
 
 #. name for mon, mn
 msgid "Mongolian"
@@ -1645,7 +1645,7 @@ msgstr "sranan"
 
 #. name for srp, sr
 msgid "Serbian"
-msgstr "serbi; serbocroat"
+msgstr "serbi"
 
 #. name for srr
 msgid "Serer"
@@ -1729,7 +1729,7 @@ msgstr "tadjik"
 
 #. name for tgl, tl
 msgid "Tagalog"
-msgstr "tagal; tagàlog; filipí"
+msgstr "tagal; tagàlog"
 
 #. name for tha, th
 msgid "Thai"
@@ -1949,7 +1949,7 @@ msgstr "zenaga"
 
 #. name for zgh
 msgid "Standard Moroccan Tamazight"
-msgstr "berber; amazic"
+msgstr "amazic"
 
 #. name for zha, za
 msgid "Zhuang; Chuang"
