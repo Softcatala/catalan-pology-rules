@@ -842,14 +842,12 @@ hint="El nom de llengua «Fijian» es tradueix per «fijià»."
 {^Filipino$}i
 id="iso_639-Filipino"
 valid msgstr="filipí"
-valid msgstr="tagal"
-hint="El nom de llengua «Filipino» es tradueix per «filipí; tagal»."
+hint="El nom de llengua «Filipino» es tradueix per «filipí»."
 
 {^Pilipino$}i
 id="iso_639-Pilipino"
 valid msgstr="filipí"
-valid msgstr="tagal"
-hint="El nom de llengua «Pilipino» es tradueix per «filipí; tagal»."
+hint="El nom de llengua «Pilipino» es tradueix per «filipí»."
 
 {^Finnish$}i
 id="iso_639-Finnish"
@@ -2936,8 +2934,8 @@ hint="El nom de llengua «Zenaga» es tradueix per «zenaga»."
 
 {^Standard Moroccan Tamazight$}i
 id="iso_639-Standard Moroccan Tamazight"
-valid msgstr="amazic"
-hint="El nom de llengua «Standard Moroccan Tamazight» es tradueix per «amazic»."
+valid msgstr="amazic estàndard marroquí"
+hint="El nom de llengua «Standard Moroccan Tamazight» es tradueix per «amazic estàndard marroquí»."
 
 {^Zhuang$}i
 id="iso_639-Zhuang"
