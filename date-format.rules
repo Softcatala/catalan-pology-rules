@@ -29,22 +29,26 @@
 
 # %Eb is a Mozilla specific token which stands for the month name in the genitive case (d'abril / de gener)
 {^%B %e$}
+id="date-format-Be"
 valid msgstr="^%e( de| del)? %B$"
 valid msgstr="^%e %Eb$"
 hint="Especificadors de format de data possiblement incorrectes. En anglès «January 31», en català «31 de gener»"
 
 {^%b %e$}
+id="date-format-be"
 valid msgstr="^%e( de)? %b$"
 valid msgstr="^%e %Eb$"
 hint="Especificadors de format de data possiblement incorrectes. En anglès «Jan 31», en català «31 de gen»"
 
 {%B %e, %Y}
+id="date-format-BeY"
 valid msgstr="%e( de)? %B( de| del) %Y"
 valid msgstr="%d( de)? %B( de| del) %Y"
 valid msgstr="%e %Eb( de| del) %Y"
 hint="Especificadors de format de data possiblement incorrectes. En anglès «January 31, 2016», en català «31 de gener del 2016»"
 
 {%m/%d/%y}
+id="date-format-mdy"
 valid msgstr="%d/%m/%y"
 valid msgstr="%d-%m-%y"
 hint="Especificadors de format de data possiblement incorrectes. En anglès «1/31/2016», en català «31/1/2016»"
@@ -53,6 +57,7 @@ hint="Especificadors de format de data possiblement incorrectes. En anglès «1/
 # PHP
 #
 {Y[/ -]m[/ -]d}
+id="date-format-Ymd"
 valid msgstr="d[-/]m[-/]Y"
 hint="Especificadors de format de data possiblement incorrectes. En anglès «2016/6/31», en català «31/6/2016»"
 
@@ -61,8 +66,6 @@ hint="Especificadors de format de data possiblement incorrectes. En anglès «20
 # See: https://msdn.microsoft.com/en-us/library/8kb3ddd4%28v=vs.110%29.aspx
 #
 {^MMMM d$}
+id="date-format-MMMMd"
 valid msgstr="^d MMMM$"
 hint="Especificadors de format de data possiblement incorrectes. En anglès «January 31 2016», en català «31 de gener 2016»"
-
-
-
