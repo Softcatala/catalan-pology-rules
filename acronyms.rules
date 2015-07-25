@@ -1,12 +1,12 @@
 #
-# Date rules for Catalan translations
+# Acronyms related information technology for Catalan translations
 # License: GPLv3
 #
 # Author: Jordi Mas <jmas@softcatala.org>, 2015
 #
 # 
 # These rules focus on checking the acronyms that are localized in Catalan.
-# The ones not localized are not checked.
+# The ones that remain the same than in English are not checked.
 #
 
 
@@ -18,22 +18,22 @@ addFilterRegex match="(_|~|&)" on="pmsgid,pmsgstr"
 
 
 {\bFAQ\b}
-id="acronims-faq"
+id="acronyms-faq"
 valid msgstr="\bPMF\b"
 valid msgstr="preguntes més freqüents"
 hint="En català l'acronim «FAQ» es tradueix per «PMF»."
 
 {\bISDN\b}
-id="acronims-isdn"
+id="acronyms-isdn"
 valid msgstr="\bXDSI\b"
 hint="En català l'acronim «ISDN» es tradueix per «XDSI»."
 
 {\bOCR\b}
-id="acronims-ocr"
+id="acronyms-ocr"
 valid msgstr="ROC"
 hint="En català l'acronim «OCR» es tradueix per «ROC» (reconeixement òptic de caràcters)."
 
 {\bGUI\b}
-id="acronims-gui"
+id="acronyms-gui"
 valid !msgstr="\bGUI\b"
 hint="En català l'acronim «GUI» es tradueix per «IGU» (interfície gràfica d'usuari)."
