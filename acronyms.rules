@@ -20,20 +20,23 @@ addFilterRegex match="(_|~|&)" on="pmsgid,pmsgstr"
 {\bFAQ\b}
 id="acronyms-faq"
 valid msgstr="\bPMF\b"
-valid msgstr="preguntes més freqüents"
-hint="En català l'acronim «FAQ» es tradueix per «PMF»."
+valid msgstr="[pP]reguntes més freqüents"
+hint="En català l'acrònim «FAQ» es tradueix per «PMF»."
 
 {\bISDN\b}
 id="acronyms-isdn"
 valid msgstr="\bXDSI\b"
-hint="En català l'acronim «ISDN» es tradueix per «XDSI»."
+hint="En català l'acrònim «ISDN» es tradueix per «XDSI»."
 
-{\bOCR\b}
-id="acronyms-ocr"
-valid msgstr="ROC"
-hint="En català l'acronim «OCR» es tradueix per «ROC» (reconeixement òptic de caràcters)."
+{\bdpi\b}
+id="acronyms-dpi"
+valid msgstr="ppp"
+valid msgstr="[pP]unts per polzada"
+hint="En català l'acrònim «dpi» es tradueix per «ppp»."
 
-{\bGUI\b}
-id="acronyms-gui"
-valid !msgstr="\bGUI\b"
-hint="En català l'acronim «GUI» es tradueix per «IGU» (interfície gràfica d'usuari)."
+{\bpoi\b}
+id="acronyms-poi"
+valid msgstr="pdi"
+hint="En català l'acrònim «poi» (point of interest) es tradueix per «pdi»."
+
+
