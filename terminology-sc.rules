@@ -34,5 +34,11 @@ valid !msgstr="xarxa sense fils"
 hint="Es tradueix per «xarxa sense fil», «xarxa sense fils» és incorrecte."
 
 
+{\bcheckbox\b}i
+id="t-sc-checkbox"
+valid msgstr="casella de selecció"
+hint="«Checkbox» es tradueix per «casella de selecció»."
+
+
 
 
