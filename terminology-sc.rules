@@ -15,7 +15,56 @@ include file="filter.include"
 # Remove accelerator and  hyphen inside words.
 addFilterRegex match="(_|~|&)" on="pmsgid,pmsgstr"
 
-{\bPerceptual\b}i
+# Mantenir en order alfabètic 
+
+{\bcheckbox\b}i
+id="t-sc-checkbox"
+valid msgstr="casella de selecció"
+hint="«Checkbox» es tradueix per «casella de selecció»."
+
+{^cancel$}i
+id="t-sc-cancel"
+valid msgstr="Cancel·la"
+hint="«Cancel» es tradueix per «cancel·la» quan és una acció, habitualment a menús i botons."
+
+{^close$}i
+id="t-sc-close"
+valid msgstr="Tanca"
+hint="«Close» es tradueix per «tanca» quan és una acció, habitualment a menús i botons."
+
+{^cut$}i
+id="t-sc-cut"
+valid msgstr="Retalla"
+hint="«Cut» es tradueix per «retalla» quan és una acció, habitualment a menús i botons."
+
+{^edit$}i
+id="t-sc-edit"
+valid msgstr="Edita"
+hint="«Edit» es tradueix per «edita» quan és una acció, habitualment a menús i botons."
+
+{^exit$}i
+id="t-sc-exit"
+valid msgstr="Surt"
+valid msgstr="Sortida"
+hint="«Exit» es tradueix per «surt» quan és una acció, habitualment a menús i botons."
+
+{^help$}i
+id="t-sc-help"
+valid msgstr="Ajuda"
+hint="«Help» es tradueix per «ajuda» quan és una acció, habitualment a menús i botons."
+
+{^ok$}i
+id="t-sc-ok"
+valid msgstr="D'acord"
+valid msgstr="Acceptable"
+hint="«Ok» es tradueix per «d'acord» quan és una acció, habitualment a menús i botons."
+
+{^paste$}i
+id="t-sc-paste"
+valid msgstr="Enganxa"
+hint="«Paste» es tradueix per «enganxa» quan és una acció, habitualment a menús i botons."
+
+{\bperceptual\b}i
 id="t-sc-perceptual"
 valid !msgstr="Perceptual"
 hint="«Perceptual», és un aglicisme cal usar «perceptiu»."
@@ -28,17 +77,15 @@ valid msgstr="redireccions"
 valid msgstr="redirecció"
 hint="«Redirect» es tradueix per «redirecció» si és nom o bé «redirigir» com a verb. L'ús de «redireccionar» és incorrecte."
 
+{^undo$}i
+id="t-sc-undo"
+valid msgstr="Desfés"
+hint="«Undo» es tradueix per «desfés» quan és una acció, habitualment a menús i botons."
+
 {\bwireless\snetwork\b}i
 id="t-sc-wireless"
 valid !msgstr="xarxa sense fils"
 hint="Es tradueix per «xarxa sense fil», «xarxa sense fils» és incorrecte."
-
-
-{\bcheckbox\b}i
-id="t-sc-checkbox"
-valid msgstr="casella de selecció"
-hint="«Checkbox» es tradueix per «casella de selecció»."
-
 
 
 
