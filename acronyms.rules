@@ -13,7 +13,7 @@
 # Remove XML entities.
 include file="filter.include"
 
-# Remove accelerator and  hyphen inside words.
+# Remove accelerator inside words.
 addFilterRegex match="(_|~|&)" on="pmsgid,pmsgstr"
 
 
@@ -38,5 +38,3 @@ hint="En català l'acrònim «dpi» es tradueix per «ppp»."
 id="acronyms-poi"
 valid msgstr="pdi"
 hint="En català l'acrònim «poi» (point of interest) es tradueix per «pdi»."
-
-
