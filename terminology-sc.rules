@@ -87,6 +87,11 @@ valid msgstr="redireccions"
 valid msgstr="redirecció"
 hint="«Redirect» es tradueix per «redirecció» si és nom o bé «redirigir» com a verb. L'ús de «redireccionar» és incorrecte."
 
+{^rotate$}i
+id="t-sc-rotate"
+valid !msgstr="rota"
+hint="Es tradueix per «gira», «rota» és incorrecte."
+
 {^undo$}i
 id="t-sc-undo"
 valid msgstr="Desfés"
