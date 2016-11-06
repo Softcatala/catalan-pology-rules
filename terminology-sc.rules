@@ -97,6 +97,11 @@ id="t-sc-rotate"
 valid !msgstr="rota"
 hint="Es tradueix per «gira», «rota» és incorrecte."
 
+{^firewall$}i
+id="t-sc-firewall"
+valid !msgstr="tallafocs"
+hint="«firewall» es tradueix per «tallafoc» en singular."
+
 {^undo$}i
 id="t-sc-undo"
 valid msgstr="Desfés"
