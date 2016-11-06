@@ -37,6 +37,11 @@ id="t-sc-cut"
 valid msgstr="Retalla"
 hint="«Cut» es tradueix per «retalla» quan és una acció, habitualment a menús i botons."
 
+{^disable$}i
+id="t-sc-disable"
+valid !msgstr="deshabili*"
+hint="«disable» es tradueix per «inhabilita»."
+
 {^edit$}i
 id="t-sc-edit"
 valid msgstr="Edita"
