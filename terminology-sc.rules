@@ -92,6 +92,11 @@ valid msgstr="redireccions"
 valid msgstr="redirecció"
 hint="«Redirect» es tradueix per «redirecció» si és nom o bé «redirigir» com a verb. L'ús de «redireccionar» és incorrecte."
 
+{^redo$}i
+id="t-sc-redo"
+valid msgstr="refés"
+hint="«Redo» es tradueix per «refés» quan és una acció, habitualment a menús i botons."
+
 {^rotate$}i
 id="t-sc-rotate"
 valid !msgstr="rota"
