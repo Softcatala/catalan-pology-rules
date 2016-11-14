@@ -74,6 +74,11 @@ id="t-sc-paste"
 valid msgstr="Enganxa"
 hint="«Paste» es tradueix per «enganxa» quan és una acció, habitualment a menús i botons."
 
+{plot}i
+id="t-sc-plot"
+valid !msgstr="dibuix"
+hint="«Plot» es molts contextos es tradueix per «traçar» però no per «dibuixar»."
+
 {pause}i
 id="t-sc-pause"
 valid !msgstr="pausar"
