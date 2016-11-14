@@ -69,6 +69,11 @@ valid msgstr="D'acord"
 valid msgstr="Acceptable"
 hint="«Ok» es tradueix per «d'acord» quan és una acció, habitualment a menús i botons."
 
+{\bpath\b}i
+id="t-sc-path"
+valid !msgstr="ruta"
+hint="«Path» es tradueix per «camí» no pas per «ruta»."
+
 {^paste$}i
 id="t-sc-paste"
 valid msgstr="Enganxa"
