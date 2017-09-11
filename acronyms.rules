@@ -44,3 +44,7 @@ id="acronyms-uri"
 valid !msgstr="(\bles URI|\bla URI|\buna URI|\bunes URI)"
 hint="L'acrònim «URI» (identificador uniforme de recursos) és masculí."
 
+{URI}i
+id="acronyms-bios"
+valid !msgstr="(\bles BIOS|\bla BIOS|\buna BIOS|\bunes BIOS)"
+hint="L'acrònim «BIOS» (sistema bàsic d’entrada/sortida) és masculí."
