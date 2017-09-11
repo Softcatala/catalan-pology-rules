@@ -17,6 +17,12 @@ addFilterRegex match="(_|~|&)" on="pmsgid,pmsgstr"
 
 # Mantenir en order alfabètic 
 
+
+{\bblog\b}i
+id="t-sc-blog"
+valid msgstr="blog"
+hint="«Blog» es tradueix per «blog»."
+
 {\bcheckbox\b}i
 id="t-sc-checkbox"
 valid msgstr="casella de selecció"
