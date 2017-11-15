@@ -60,6 +60,7 @@ def read_po_file(filename, exceptions):
             continue
 
         hint = None
+        valid = None
         if exceptions is not None:
             actions = exceptions.get(entry.msgid)
             if actions is not None:
@@ -67,6 +68,7 @@ def read_po_file(filename, exceptions):
                     continue
 
                 hint = actions.get('hint')
+                valid = actions.get('valid')
 
         msgid = entry.msgid
         for source in msgid.split(';'):
@@ -74,6 +76,9 @@ def read_po_file(filename, exceptions):
             msgstr = entry.msgstr.replace(',', ';')
             for target in msgstr.split(';'):
                 targets.append(Target(target.strip()))
+
+            if valid is not None:
+                targets.append(Target(valid.strip()))
 
             translation = Translation(source.strip(), entry.msgstr, targets, hint)
             translations.append(translation)

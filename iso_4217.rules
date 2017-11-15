@@ -40,6 +40,7 @@ hint="El nom de moneda «Lek» es tradueix per «Lek»."
 {^Armenian Dram$}i
 id="iso_4217-Armenian Dram"
 valid msgstr="Dram armeni"
+valid msgstr="Dram"
 hint="El nom de moneda «Armenian Dram» es tradueix per «Dram armeni»."
 
 {^Netherlands Antillean Guilder$}i
@@ -315,6 +316,7 @@ hint="El nom de moneda «Gourde» es tradueix per «Gourde»."
 {^Forint$}i
 id="iso_4217-Forint"
 valid msgstr="Fòrint"
+valid msgstr="Flòri"
 hint="El nom de moneda «Forint» es tradueix per «Fòrint»."
 
 {^Rupiah$}i
@@ -730,6 +732,7 @@ hint="El nom de moneda «Uganda Shilling» es tradueix per «Xíling ugandès».
 {^US Dollar$}i
 id="iso_4217-US Dollar"
 valid msgstr="Dòlar dels Estats Units"
+valid msgstr="Dòlar dels EUA"
 hint="El nom de moneda «US Dollar» es tradueix per «Dòlar dels Estats Units»."
 
 {^Peso Uruguayo$}i

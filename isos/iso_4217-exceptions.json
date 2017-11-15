@@ -7,5 +7,14 @@
     },
     "Gold" : {
         "ignore": "yes"
+    },
+    "US Dollar" : {
+        "valid": "Dòlar dels EUA"
+    },
+    "Forint" : {
+        "valid": "Flòri"
+    },
+    "Armenian Dram" : {
+        "valid": "Dram"
     }
 }
