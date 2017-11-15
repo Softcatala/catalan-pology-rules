@@ -770,11 +770,6 @@ id="iso_4217-CFA Franc BEAC"
 valid msgstr="Franc CFA de la BEAC"
 hint="El nom de moneda «CFA Franc BEAC» es tradueix per «Franc CFA de la BEAC»."
 
-{^Silver$}i
-id="iso_4217-Silver"
-valid msgstr="Argent"
-hint="El nom de moneda «Silver» es tradueix per «Argent»."
-
 {^East Caribbean Dollar$}i
 id="iso_4217-East Caribbean Dollar"
 valid msgstr="Dòlar del Carib Est"

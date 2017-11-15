@@ -8,6 +8,9 @@
     "Gold" : {
         "ignore": "yes"
     },
+    "Silver" : {
+        "ignore": "yes"
+    },
     "US Dollar" : {
         "valid": "Dòlar dels EUA"
     },
