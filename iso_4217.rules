@@ -45,8 +45,8 @@ hint="El nom de moneda «Armenian Dram» es tradueix per «Dram armeni»."
 
 {^Netherlands Antillean Guilder$}i
 id="iso_4217-Netherlands Antillean Guilder"
-valid msgstr="Florí de les Antilles Holandeses"
-hint="El nom de moneda «Netherlands Antillean Guilder» es tradueix per «Florí de les Antilles Holandeses»."
+valid msgstr="Florí de les Antilles Neerlandeses"
+hint="El nom de moneda «Netherlands Antillean Guilder» es tradueix per «Florí de les Antilles Neerlandeses»."
 
 {^Kwanza$}i
 id="iso_4217-Kwanza"
@@ -55,8 +55,8 @@ hint="El nom de moneda «Kwanza» es tradueix per «Kwanza»."
 
 {^Argentine Peso$}i
 id="iso_4217-Argentine Peso"
-valid msgstr="Pes argentí"
-hint="El nom de moneda «Argentine Peso» es tradueix per «Pes argentí»."
+valid msgstr="Peso argentí"
+hint="El nom de moneda «Argentine Peso» es tradueix per «Peso argentí»."
 
 {^Australian Dollar$}i
 id="iso_4217-Australian Dollar"
@@ -90,8 +90,8 @@ hint="El nom de moneda «Taka» es tradueix per «Taka»."
 
 {^Bulgarian Lev$}i
 id="iso_4217-Bulgarian Lev"
-valid msgstr="Lev de Bulgària"
-hint="El nom de moneda «Bulgarian Lev» es tradueix per «Lev de Bulgària»."
+valid msgstr="Lev búlgar"
+hint="El nom de moneda «Bulgarian Lev» es tradueix per «Lev búlgar»."
 
 {^Bahraini Dinar$}i
 id="iso_4217-Bahraini Dinar"
@@ -170,8 +170,8 @@ hint="El nom de moneda «Chilean Peso» es tradueix per «Peso xilè»."
 
 {^Yuan Renminbi$}i
 id="iso_4217-Yuan Renminbi"
-valid msgstr="Iuan Renminbi"
-hint="El nom de moneda «Yuan Renminbi» es tradueix per «Iuan Renminbi»."
+valid msgstr="Iuan renminbi"
+hint="El nom de moneda «Yuan Renminbi» es tradueix per «Iuan renminbi»."
 
 {^Colombian Peso$}i
 id="iso_4217-Colombian Peso"
@@ -190,8 +190,8 @@ hint="El nom de moneda «Peso Convertible» es tradueix per «Peso convertible»
 
 {^Cuban Peso$}i
 id="iso_4217-Cuban Peso"
-valid msgstr="Pes cubà"
-hint="El nom de moneda «Cuban Peso» es tradueix per «Pes cubà»."
+valid msgstr="Peso cubà"
+hint="El nom de moneda «Cuban Peso» es tradueix per «Peso cubà»."
 
 {^Cabo Verde Escudo$}i
 id="iso_4217-Cabo Verde Escudo"
@@ -215,8 +215,8 @@ hint="El nom de moneda «Danish Krone» es tradueix per «Corona danesa»."
 
 {^Dominican Peso$}i
 id="iso_4217-Dominican Peso"
-valid msgstr="Pes dominicà"
-hint="El nom de moneda «Dominican Peso» es tradueix per «Pes dominicà»."
+valid msgstr="Peso dominicà"
+hint="El nom de moneda «Dominican Peso» es tradueix per «Peso dominicà»."
 
 {^Algerian Dinar$}i
 id="iso_4217-Algerian Dinar"
@@ -235,8 +235,8 @@ hint="El nom de moneda «Nakfa» es tradueix per «Nakfa»."
 
 {^Ethiopian Birr$}i
 id="iso_4217-Ethiopian Birr"
-valid msgstr="Birr d'Etiòpia"
-hint="El nom de moneda «Ethiopian Birr» es tradueix per «Birr d'Etiòpia»."
+valid msgstr="Birr etíop"
+hint="El nom de moneda «Ethiopian Birr» es tradueix per «Birr etíop»."
 
 {^Euro$}i
 id="iso_4217-Euro"
@@ -356,8 +356,8 @@ hint="El nom de moneda «Jamaican Dollar» es tradueix per «Dòlar jamaicà»."
 
 {^Jordanian Dinar$}i
 id="iso_4217-Jordanian Dinar"
-valid msgstr="Dinar de Jordània"
-hint="El nom de moneda «Jordanian Dinar» es tradueix per «Dinar de Jordània»."
+valid msgstr="Dinar jordà"
+hint="El nom de moneda «Jordanian Dinar» es tradueix per «Dinar jordà»."
 
 {^Yen$}i
 id="iso_4217-Yen"
@@ -421,8 +421,8 @@ hint="El nom de moneda «Sri Lanka Rupee» es tradueix per «Rupia de Sri Lanka�
 
 {^Liberian Dollar$}i
 id="iso_4217-Liberian Dollar"
-valid msgstr="Dòlar de Libèria"
-hint="El nom de moneda «Liberian Dollar» es tradueix per «Dòlar de Libèria»."
+valid msgstr="Dòlar liberià"
+hint="El nom de moneda «Liberian Dollar» es tradueix per «Dòlar liberià»."
 
 {^Loti$}i
 id="iso_4217-Loti"
@@ -446,13 +446,13 @@ hint="El nom de moneda «Moldovan Leu» es tradueix per «Leu moldau»."
 
 {^Malagasy Ariary$}i
 id="iso_4217-Malagasy Ariary"
-valid msgstr="Ariary"
-hint="El nom de moneda «Malagasy Ariary» es tradueix per «Ariary»."
+valid msgstr="Ariary malgaix"
+hint="El nom de moneda «Malagasy Ariary» es tradueix per «Ariary malgaix»."
 
 {^Denar$}i
 id="iso_4217-Denar"
-valid msgstr="Dinar"
-hint="El nom de moneda «Denar» es tradueix per «Dinar»."
+valid msgstr="Denar"
+hint="El nom de moneda «Denar» es tradueix per «Denar»."
 
 {^Kyat$}i
 id="iso_4217-Kyat"
@@ -476,8 +476,8 @@ hint="El nom de moneda «Ouguiya» es tradueix per «Ouguiya»."
 
 {^Mauritius Rupee$}i
 id="iso_4217-Mauritius Rupee"
-valid msgstr="Rupia de Maurici"
-hint="El nom de moneda «Mauritius Rupee» es tradueix per «Rupia de Maurici»."
+valid msgstr="Rupia mauriciana"
+hint="El nom de moneda «Mauritius Rupee» es tradueix per «Rupia mauriciana»."
 
 {^Rufiyaa$}i
 id="iso_4217-Rufiyaa"
@@ -486,8 +486,8 @@ hint="El nom de moneda «Rufiyaa» es tradueix per «Rufiyaa»."
 
 {^Malawi Kwacha$}i
 id="iso_4217-Malawi Kwacha"
-valid msgstr="Kwacha de Malawi"
-hint="El nom de moneda «Malawi Kwacha» es tradueix per «Kwacha de Malawi»."
+valid msgstr="Kwacha malawià"
+hint="El nom de moneda «Malawi Kwacha» es tradueix per «Kwacha malawià»."
 
 {^Mexican Peso$}i
 id="iso_4217-Mexican Peso"
@@ -496,8 +496,8 @@ hint="El nom de moneda «Mexican Peso» es tradueix per «Peso mexicà»."
 
 {^Malaysian Ringgit$}i
 id="iso_4217-Malaysian Ringgit"
-valid msgstr="Ringgit malai"
-hint="El nom de moneda «Malaysian Ringgit» es tradueix per «Ringgit malai»."
+valid msgstr="Ringgit de Malàisia"
+hint="El nom de moneda «Malaysian Ringgit» es tradueix per «Ringgit de Malàisia»."
 
 {^Mozambique Metical$}i
 id="iso_4217-Mozambique Metical"
@@ -576,8 +576,8 @@ hint="El nom de moneda «Guarani» es tradueix per «Guaraní»."
 
 {^Qatari Rial$}i
 id="iso_4217-Qatari Rial"
-valid msgstr="Riyal de Qatar"
-hint="El nom de moneda «Qatari Rial» es tradueix per «Riyal de Qatar»."
+valid msgstr="Rial de Qatar"
+hint="El nom de moneda «Qatari Rial» es tradueix per «Rial de Qatar»."
 
 {^Romanian Leu$}i
 id="iso_4217-Romanian Leu"
@@ -601,8 +601,8 @@ hint="El nom de moneda «Rwanda Franc» es tradueix per «Franc rwandès»."
 
 {^Saudi Riyal$}i
 id="iso_4217-Saudi Riyal"
-valid msgstr="Riyal saudita"
-hint="El nom de moneda «Saudi Riyal» es tradueix per «Riyal saudita»."
+valid msgstr="Rial saudita"
+hint="El nom de moneda «Saudi Riyal» es tradueix per «Rial saudita»."
 
 {^Solomon Islands Dollar$}i
 id="iso_4217-Solomon Islands Dollar"
@@ -666,8 +666,8 @@ hint="El nom de moneda «El Salvador Colon» es tradueix per «Colon salvadorenc
 
 {^Syrian Pound$}i
 id="iso_4217-Syrian Pound"
-valid msgstr="Lliura de Síria"
-hint="El nom de moneda «Syrian Pound» es tradueix per «Lliura de Síria»."
+valid msgstr="Lliura siriana"
+hint="El nom de moneda «Syrian Pound» es tradueix per «Lliura siriana»."
 
 {^Lilangeni$}i
 id="iso_4217-Lilangeni"
@@ -737,8 +737,8 @@ hint="El nom de moneda «US Dollar» es tradueix per «Dòlar dels Estats Units�
 
 {^Peso Uruguayo$}i
 id="iso_4217-Peso Uruguayo"
-valid msgstr="Pes d'Uruguai"
-hint="El nom de moneda «Peso Uruguayo» es tradueix per «Pes d'Uruguai»."
+valid msgstr="Peso uruguaià"
+hint="El nom de moneda «Peso Uruguayo» es tradueix per «Peso uruguaià»."
 
 {^Uzbekistan Sum$}i
 id="iso_4217-Uzbekistan Sum"
@@ -772,8 +772,8 @@ hint="El nom de moneda «CFA Franc BEAC» es tradueix per «Franc CFA de la BEAC
 
 {^East Caribbean Dollar$}i
 id="iso_4217-East Caribbean Dollar"
-valid msgstr="Dòlar del Carib Est"
-hint="El nom de moneda «East Caribbean Dollar» es tradueix per «Dòlar del Carib Est»."
+valid msgstr="Dòlar del Carib Oriental"
+hint="El nom de moneda «East Caribbean Dollar» es tradueix per «Dòlar del Carib Oriental»."
 
 {^SDR (Special Drawing Right)$}i
 id="iso_4217-SDR (Special Drawing Right)"
@@ -797,8 +797,8 @@ hint="El nom de moneda «CFP Franc» es tradueix per «Franc CFP»."
 
 {^Platinum$}i
 id="iso_4217-Platinum"
-valid msgstr="Platinum"
-hint="El nom de moneda «Platinum» es tradueix per «Platinum»."
+valid msgstr="Platí"
+hint="El nom de moneda «Platinum» es tradueix per «Platí»."
 
 {^Sucre$}i
 id="iso_4217-Sucre"
@@ -822,8 +822,8 @@ hint="El nom de moneda «Yemeni Rial» es tradueix per «Rial iemenita»."
 
 {^Zambian Kwacha$}i
 id="iso_4217-Zambian Kwacha"
-valid msgstr="Kwacha de Zàmbia"
-hint="El nom de moneda «Zambian Kwacha» es tradueix per «Kwacha de Zàmbia»."
+valid msgstr="Kwacha zambià"
+hint="El nom de moneda «Zambian Kwacha» es tradueix per «Kwacha zambià»."
 
 {^Zimbabwe Dollar$}i
 id="iso_4217-Zimbabwe Dollar"
