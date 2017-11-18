@@ -596,8 +596,8 @@ hint="El nom de moneda «Russian Ruble» es tradueix per «Ruble rus»."
 
 {^Rwanda Franc$}i
 id="iso_4217-Rwanda Franc"
-valid msgstr="Franc rwandès"
-hint="El nom de moneda «Rwanda Franc» es tradueix per «Franc rwandès»."
+valid msgstr="Franc de Ruanda"
+hint="El nom de moneda «Rwanda Franc» es tradueix per «Franc de Ruanda»."
 
 {^Saudi Riyal$}i
 id="iso_4217-Saudi Riyal"
