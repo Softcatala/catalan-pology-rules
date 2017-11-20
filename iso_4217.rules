@@ -3,7 +3,7 @@
 #
 # License: GPLv3
 #
-# The objective of these rules is to bring consistency in the translation of languages
+# The objective of these rules is to bring consistency in the translation of currency
 # names across translation projects.
 # 
 # These rules have been generated using ISO_4217-3 PO file from the https://translationproject.org/
