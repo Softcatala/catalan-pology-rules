@@ -1,0 +1,163 @@
+#
+# HTML, XML rules for Catalan translations
+# License: GPLv3
+#
+# Author: Jordi Mas <jmas@softcatala.org>, 2017
+#
+# Detects HTML, XML tags commonly used in strings that are not present
+# potentially showing break tests or not accurated representation
+#
+# When developing these rules I optimized for providing as few false positives
+# as possible. This is why we do exact string matching.
+
+
+### Standard HTML tags used also in many XML documents 
+
+{<title>}
+id="tags-title"
+valid msgstr="<title>"
+hint="Falta etiqueta <title>"
+
+{<\/title>}
+id="tags-app-title"
+valid msgstr="</title>"
+hint="Falta etiqueta <\/title>"
+
+{<bold>}
+id="tags-bold"
+valid msgstr="<bold>"
+hint="Falta etiqueta <bold>"
+
+{<\/bold>}
+id="tags-bold-close"
+valid msgstr="</bold>"
+hint="Falta etiqueta </bold>"
+
+{<b>}
+id="tags-b"
+valid msgstr="<b>"
+hint="Falta etiqueta <b>"
+
+{<\/b>}
+id="tags-b-close"
+valid msgstr="<\/b>"
+hint="Falta etiqueta </b>"
+
+{<italic>}
+id="tags-italic"
+valid msgstr="<italic>"
+hint="Falta etiqueta <italic>"
+
+{<\/italic>}
+id="tags-italic-close"
+valid msgstr="</italic>"
+hint="Falta etiqueta </italic>"
+
+{<i>}
+id="tags-i"
+valid msgstr="<i>"
+hint="Falta etiqueta <i>"
+
+{<\/i>}
+id="tags-i-close"
+valid msgstr="<\/i>"
+hint="Falta etiqueta </i>"
+
+{<em>}
+id="tags-em"
+valid msgstr="<em>"
+hint="Falta etiqueta <em>"
+
+{<\/em>}
+id="tags-em-close"
+valid msgstr="</em>"
+hint="Falta etiqueta </em>"
+
+{<li>}
+id="tags-li"
+valid msgstr="<li>"
+hint="Falta etiqueta <li>"
+
+### http://projectmallard.org/1.0/ extensively in GNOME documentation
+
+{<app>}
+id="tags-app"
+valid msgstr="<app>"
+hint="Falta etiqueta <app>"
+
+{<\/app>}
+id="tags-app-close"
+valid msgstr="</app>"
+hint="Falta etiqueta </app>"
+
+{<cmd>}
+id="tags-cmd"
+valid msgstr="<cmd>"
+hint="Falta etiqueta <cmd>"
+
+{<\/cmd>}
+id="tags-cmd-close"
+valid msgstr="</cmd>"
+hint="Falta etiqueta </cmd>"
+
+{<link}
+id="tags-link"
+valid msgstr="<link"
+hint="Falta etiqueta <link"
+
+{<gui>}
+id="tags-gui"
+valid msgstr="<gui>"
+hint="Falta etiqueta <gui>"
+
+{<\/gui>}
+id="tags-gui-close"
+valid msgstr="</gui>"
+hint="Falta etiqueta </gui>"
+
+{<guiseq>}
+id="tags-guiseq"
+valid msgstr="<guiseq>"
+hint="Falta etiqueta <guiseq>"
+
+{<\/guiseq>}
+id="tags-guiseq-close"
+valid msgstr="</guiseq>"
+hint="Falta etiqueta </guiseq>"
+
+{<keyseq>}
+id="tags-keyseq"
+valid msgstr="<keyseq>"
+hint="Falta etiqueta <keyseq>"
+
+{<\/keyseq>}
+id="tags-keyseq-close"
+valid msgstr="</keyseq>"
+hint="Falta etiqueta </keyseq>"
+
+{<key>}
+id="tags-key"
+valid msgstr="<key>"
+hint="Falta etiqueta <key>"
+
+{<\/key>}
+id="tags-key-close"
+valid msgstr="</key>"
+hint="Falta etiqueta </key>"
+
+### DocBook 5.0 tags
+
+{<quote>}
+id="tags-quote"
+valid msgstr="<quote>"
+hint="Falta etiqueta <quote>"
+
+{<\/quote>}
+id="tags-quote-close"
+valid msgstr="</quote>"
+hint="Falta etiqueta </quote>"
+
+
+
+
+
