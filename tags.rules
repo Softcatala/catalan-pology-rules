@@ -19,9 +19,9 @@ valid msgstr="<title>"
 hint="Falta l'etiqueta <title>"
 
 {<\/title>}
-id="tags-app-title"
+id="tags-title-close"
 valid msgstr="</title>"
-hint="Falta l'etiqueta <\/title>"
+hint="Falta l'etiqueta </title>"
 
 {<bold>}
 id="tags-bold"
@@ -156,8 +156,5 @@ hint="Falta l'etiqueta <quote>"
 id="tags-quote-close"
 valid msgstr="</quote>"
 hint="Falta l'etiqueta </quote>"
-
-
-
 
 
