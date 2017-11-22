@@ -11,6 +11,9 @@
     "Silver" : {
         "ignore": "yes"
     },
+    "Platinum" : {
+        "ignore": "yes"
+    },
     "US Dollar" : {
         "valid": "Dòlar dels EUA"
     },

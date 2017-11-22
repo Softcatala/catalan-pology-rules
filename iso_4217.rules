@@ -795,11 +795,6 @@ id="iso_4217-CFP Franc"
 valid msgstr="Franc CFP"
 hint="El nom de moneda «CFP Franc» es tradueix per «Franc CFP»."
 
-{^Platinum$}i
-id="iso_4217-Platinum"
-valid msgstr="Platí"
-hint="El nom de moneda «Platinum» es tradueix per «Platí»."
-
 {^Sucre$}i
 id="iso_4217-Sucre"
 valid msgstr="Sucre"
