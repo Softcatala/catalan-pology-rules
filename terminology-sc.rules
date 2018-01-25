@@ -133,6 +133,11 @@ id="t-sc-undo"
 valid msgstr="Desfés"
 hint="«Undo» es tradueix per «desfés» quan és una acció, habitualment a menús i botons."
 
+{\wallpaper$}i
+id="t-sc-wallpaper"
+valid msgstr="fons de pantalla"
+hint="Es tradueix per «fons de pantalla»."
+
 {\bwireless\snetwork\b}i
 id="t-sc-wireless"
 valid !msgstr="xarxa sense fils"
