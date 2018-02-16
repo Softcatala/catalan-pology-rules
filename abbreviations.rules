@@ -65,7 +65,7 @@ hint="L'abreviatura del mes de desembre és «des.»."
 
 {^mon$}i
 id="abbreviations-mon"
-valid msgstr="gen."
+valid msgstr="dl."
 hint="L'abreviatura de dilluns és «dl.»."
 
 {^tue$}i
