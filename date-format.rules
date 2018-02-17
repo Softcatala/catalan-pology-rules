@@ -69,3 +69,10 @@ hint="Especificadors de format de data possiblement incorrectes. En anglès «20
 id="date-format-MMMMd"
 valid msgstr="^d MMMM$"
 hint="Especificadors de format de data possiblement incorrectes. En anglès «January 31 2016», en català «31 de gener 2016»"
+
+
+# glib 2.27
+{%B}
+id="libc-de-b"
+valid !msgstr="( de |d'){1}%B"
+hint="La biblioteca glibc versió 2.27 o superior inclou les proposicions al representar el formatador %B. Afegint la preposició manualment, quelcom necessari en versions anteriors, fa que la preposició «de» aparègui repetida p. ex. «1 de de gener de 2018». Cal eliminar la preposició «de»."
