@@ -57,7 +57,7 @@ hint="Especificadors de format de data possiblement incorrectes. En anglès «1/
 
 {(%B|%b) %Y}
 id="date-format-my"
-valid msgstr="(%B|%b)( de |del )%Y"
+valid msgstr="(%B|%b)( de | del )%Y"
 hint="Especificadors de format de data possiblement incorrectes. En català cal dir «abril de 2018» en comptes de «abril 2018»"
 
 
@@ -82,10 +82,10 @@ hint="Especificadors de format de data possiblement incorrectes. En anglès «Ja
 # glib 2.28+ specific rules
 {%B}
 id="libc-de-b"
-valid !msgstr="( de |d'){1}%B"
+valid !msgstr="( de | d'){1}%B"
 hint="La biblioteca glibc versió 2.28 o superior inclou les proposicions al representar el formatador %B. Afegint la preposició manualment, quelcom necessari en versions anteriors, fa que la preposició «de» aparegui repetida p. ex. «1 de de gener». Cal eliminar la preposició «de» abans de «%B»."
 
 {%b}
 id="libc-dia-de-b"
-valid !msgstr="(%d|%-d|%e|%-e){1}( de |d'){1}%b"
+valid !msgstr="(%d|%-d|%e|%-e){1}( de | d'){1}%b"
 hint="La biblioteca glibc versió 2.28 o superior inclou les proposicions al representar el formatador %b. Afegint la preposició manualment, quelcom necessari en versions anteriors, fa que la preposició «de» aparegui repetida p. ex. «1 de de gen». Cal eliminar la preposició «de» abans de «%b»."
