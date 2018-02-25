@@ -83,9 +83,9 @@ hint="Especificadors de format de data possiblement incorrectes. En anglès «Ja
 {%B}
 id="libc-de-b"
 valid !msgstr="( de |d'){1}%B"
-hint="La biblioteca glibc versió 2.28 o superior inclou les proposicions al representar el formatador %B. Afegint la preposició manualment, quelcom necessari en versions anteriors, fa que la preposició «de» aparegui repetida p. ex. «1 de de gener». Cal eliminar la preposició «de»."
+hint="La biblioteca glibc versió 2.28 o superior inclou les proposicions al representar el formatador %B. Afegint la preposició manualment, quelcom necessari en versions anteriors, fa que la preposició «de» aparegui repetida p. ex. «1 de de gener». Cal eliminar la preposició «de» abans de «%B»."
 
 {%b}
 id="libc-dia-de-b"
 valid !msgstr="(%d|%-d|%e|%-e){1}( de |d'){1}%b"
-hint="La biblioteca glibc versió 2.28 o superior inclou les proposicions al representar el formatador %b. Afegint la preposició manualment, quelcom necessari en versions anteriors, fa que la preposició «de» aparegui repetida p. ex. «1 de de gen». Cal eliminar la preposició «de»."
+hint="La biblioteca glibc versió 2.28 o superior inclou les proposicions al representar el formatador %b. Afegint la preposició manualment, quelcom necessari en versions anteriors, fa que la preposició «de» aparegui repetida p. ex. «1 de de gen». Cal eliminar la preposició «de» abans de «%b»."
