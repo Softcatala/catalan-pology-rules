@@ -16,6 +16,10 @@ addFilterRegex match="(_|~|&)" on="pmsgid,pmsgstr"
 
 # Mantenir en order alfabètic 
 
+{\bbackslash\b}i
+id="t-sc-backslash"
+valid msgstr="barra inversa"
+hint="«Backslash» es tradueix per «barra inversa»."
 
 {\bblog\b}i
 id="t-sc-blog"
@@ -37,7 +41,7 @@ id="t-sc-close"
 valid msgstr="Tanca"
 hint="«Close» es tradueix per «tanca» quan és una acció, habitualment a menús i botons."
 
-{\bCommand line\b}i
+{\bcommand line\b}i
 id="t-sc-command-line"
 valid msgstr="línia d'ordres"
 hint="«Command line» es tradueix per «línia d'ordres»."
