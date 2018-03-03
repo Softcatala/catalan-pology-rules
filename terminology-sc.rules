@@ -1,8 +1,7 @@
 #
-# Softcatalà terminology 
-# 
-# When the terminology does not follow TERMCAT's recommendations we will
-# highlight that fact
+# Aquest fitxer recull errades comunes en terminologia informàtica aplicant
+# els criteris del TERMCAT i els que usem a Softcatalà i què són acceptats
+# ampliament
 # 
 # License: GPLv3
 #
@@ -127,6 +126,16 @@ hint="«Redo» es tradueix per «refés» quan és una acció, habitualment a me
 id="t-sc-rotate"
 valid !msgstr="rota"
 hint="Es tradueix per «gira», «rota» és incorrecte."
+
+{^save$}i
+id="t-sc-save"
+valid msgstr="desa"
+hint="«Save» es tradueix per «desa» quan és una acció, habitualment a menús i botons."
+
+{^save as$}i
+id="t-sc-save-as"
+valid msgstr="anomena i desa"
+hint="«Save as» es tradueix per «anomena i desa» quan és una acció, habitualment a menús i botons."
 
 {^firewall$}i
 id="t-sc-firewall"
