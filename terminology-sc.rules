@@ -28,6 +28,11 @@ id="t-sc-checkbox"
 valid msgstr="casella de selecció"
 hint="«Checkbox» es tradueix per «casella de selecció»."
 
+{\bCommand line\b}i
+id="t-sc-command-line"
+valid msgstr="línia d'ordres"
+hint="«Command line» es tradueix per «línia d'ordres»."
+
 {^cancel$}i
 id="t-sc-cancel"
 valid msgstr="Cancel·la"
