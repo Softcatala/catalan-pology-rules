@@ -22,25 +22,25 @@ id="t-sc-blog"
 valid msgstr="blog"
 hint="«Blog» es tradueix per «blog»."
 
-{\bcheckbox\b}i
-id="t-sc-checkbox"
-valid msgstr="casella de selecció"
-hint="«Checkbox» es tradueix per «casella de selecció»."
-
-{\bCommand line\b}i
-id="t-sc-command-line"
-valid msgstr="línia d'ordres"
-hint="«Command line» es tradueix per «línia d'ordres»."
-
 {^cancel$}i
 id="t-sc-cancel"
 valid msgstr="Cancel·la"
 hint="«Cancel» es tradueix per «cancel·la» quan és una acció, habitualment a menús i botons."
 
+{\bcheckbox\b}i
+id="t-sc-checkbox"
+valid msgstr="casella de selecció"
+hint="«Checkbox» es tradueix per «casella de selecció»."
+
 {^close$}i
 id="t-sc-close"
 valid msgstr="Tanca"
 hint="«Close» es tradueix per «tanca» quan és una acció, habitualment a menús i botons."
+
+{\bCommand line\b}i
+id="t-sc-command-line"
+valid msgstr="línia d'ordres"
+hint="«Command line» es tradueix per «línia d'ordres»."
 
 {^cut$}i
 id="t-sc-cut"
@@ -63,10 +63,20 @@ valid msgstr="Surt"
 valid msgstr="Sortida"
 hint="«Exit» es tradueix per «surt» quan és una acció, habitualment a menús i botons."
 
+{^firewall$}i
+id="t-sc-firewall"
+valid !msgstr="tallafocs"
+hint="«firewall» es tradueix per «tallafoc» en singular."
+
 {^help$}i
 id="t-sc-help"
 valid msgstr="Ajuda"
 hint="«Help» es tradueix per «ajuda» quan és una acció, habitualment a menús i botons."
+
+{\bline spacing\b}i
+id="t-sc-linespacing"
+valid msgstr="interlineat"
+hint="«interlineat», és la forma acceptada pel TERMCAT."
 
 {monitor}i
 id="t-sc-monitor"
@@ -79,35 +89,30 @@ valid msgstr="D'acord"
 valid msgstr="Acceptable"
 hint="«Ok» es tradueix per «d'acord» quan és una acció, habitualment a menús i botons."
 
-{\bpath\b}i
-id="t-sc-path"
-valid !msgstr="ruta"
-hint="«Path» es tradueix per «camí» no pas per «ruta»."
-
 {^paste$}i
 id="t-sc-paste"
 valid msgstr="Enganxa"
 hint="«Paste» es tradueix per «enganxa» quan és una acció, habitualment a menús i botons."
 
-{plot}i
-id="t-sc-plot"
-valid !msgstr="dibuix"
-hint="«Plot» es molts contextos es tradueix per «traçar» però no per «dibuixar»."
+{\bpath\b}i
+id="t-sc-path"
+valid !msgstr="ruta"
+hint="«Path» es tradueix per «camí» no pas per «ruta»."
 
 {pause}i
 id="t-sc-pause"
 valid !msgstr="pausar"
 hint="«Pausar» no existeix com a verb."
 
-{\bline spacing\b}i
-id="t-sc-linespacing"
-valid msgstr="interlineat"
-hint="«interlineat», és la forma acceptada pel TERMCAT."
-
 {\bperceptual\b}i
 id="t-sc-perceptual"
 valid !msgstr="Perceptual"
 hint="«Perceptual», és un aglicisme cal usar «perceptiu»."
+
+{plot}i
+id="t-sc-plot"
+valid !msgstr="dibuix"
+hint="«Plot» es molts contextos es tradueix per «traçar» però no per «dibuixar»."
 
 {\bredirect\b}i
 id="t-sc-redirect"
@@ -137,11 +142,6 @@ id="t-sc-save-as"
 valid msgstr="anomena i desa"
 hint="«Save as» es tradueix per «anomena i desa» quan és una acció, habitualment a menús i botons."
 
-{^firewall$}i
-id="t-sc-firewall"
-valid !msgstr="tallafocs"
-hint="«firewall» es tradueix per «tallafoc» en singular."
-
 {^undo$}i
 id="t-sc-undo"
 valid msgstr="Desfés"
@@ -156,6 +156,4 @@ hint="Es tradueix per «fons de pantalla»."
 id="t-sc-wireless"
 valid !msgstr="xarxa sense fils"
 hint="Es tradueix per «xarxa sense fil», «xarxa sense fils» és incorrecte."
-
-
 
