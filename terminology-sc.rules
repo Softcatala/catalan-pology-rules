@@ -80,7 +80,7 @@ id="t-sc-linespacing"
 valid msgstr="interlineat"
 hint="«interlineat», és la forma acceptada pel TERMCAT."
 
-{monitor}i
+{\bmonitor.*\b}i
 id="t-sc-monitor"
 valid !msgstr="monitoritzar"
 hint="«Monitoritzar» no existeix com a verb."
@@ -101,7 +101,7 @@ id="t-sc-path"
 valid !msgstr="ruta"
 hint="«Path» es tradueix per «camí» no pas per «ruta»."
 
-{pause}i
+{\bpause.*\b}i
 id="t-sc-pause"
 valid !msgstr="pausar"
 hint="«Pausar» no existeix com a verb."
