@@ -51,7 +51,7 @@ hint="«Cut» es tradueix per «retalla» quan és una acció, habitualment a me
 
 {^disable$}i
 id="t-sc-disable"
-valid !msgstr="deshabili*"
+valid !msgstr="deshabili.*"
 hint="«disable» es tradueix per «inhabilita»."
 
 {^edit$}i
