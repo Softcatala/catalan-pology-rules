@@ -111,7 +111,7 @@ id="t-sc-perceptual"
 valid !msgstr="Perceptual"
 hint="«Perceptual», és un aglicisme cal usar «perceptiu»."
 
-{plot}i
+{\bplot.*\b}i
 id="t-sc-plot"
 valid !msgstr="dibuix"
 hint="«Plot» es molts contextos es tradueix per «traçar» però no per «dibuixar»."
