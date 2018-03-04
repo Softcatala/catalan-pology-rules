@@ -6,15 +6,13 @@
 # License: GPLv3
 #
 # Keep this file alphabetically sorted by source regular expression
-# 
+
 
 # Remove XML entities.
 include file="filter.include"
 
 # Remove accelerator and  hyphen inside words.
 addFilterRegex match="(_|~|&)" on="pmsgid,pmsgstr"
-
-# Mantenir en order alfabètic 
 
 {\bbackslash\b}i
 id="t-sc-backslash"
@@ -67,7 +65,7 @@ valid msgstr="Surt"
 valid msgstr="Sortida"
 hint="«Exit» es tradueix per «surt» quan és una acció, habitualment a menús i botons."
 
-{^firewall$}i
+{\bfirewall\b}i
 id="t-sc-firewall"
 valid !msgstr="tallafocs"
 hint="«firewall» es tradueix per «tallafoc» en singular."
@@ -131,9 +129,9 @@ id="t-sc-redo"
 valid msgstr="refés"
 hint="«Redo» es tradueix per «refés» quan és una acció, habitualment a menús i botons."
 
-{^rotate$}i
+{\brotate\b}i
 id="t-sc-rotate"
-valid !msgstr="rota"
+valid !msgstr="\brota\b"
 hint="Es tradueix per «gira», «rota» és incorrecte."
 
 {^save$}i
