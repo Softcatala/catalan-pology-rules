@@ -45,7 +45,7 @@ hint="Especificadors de format de data possiblement incorrectes. En anglès «1/
 {(%B|%b) %Y}
 id="date-format-my"
 valid msgstr="(%B|%b)( de | del )%Y"
-hint="Especificadors de format de data possiblement incorrectes. En català cal dir «abril de 2018» en comptes de «abril 2018»"
+hint="Especificadors de format de data possiblement incorrectes falta la preposició «de» abans de l'any. En català cal dir «abril de 2018» en comptes de «abril 2018»"
 
 
 #
