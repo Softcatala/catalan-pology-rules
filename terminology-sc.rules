@@ -114,7 +114,7 @@ hint="«Perceptual», és un aglicisme cal usar «perceptiu»."
 {\bplot.*\b}i
 id="t-sc-plot"
 valid !msgstr="dibuix"
-hint="«Plot» es molts contextos es tradueix per «traçar» però no per «dibuixar»."
+hint="«Plot» en molts contextos es tradueix per «traçar» però no per «dibuixar»."
 
 {\bredirect\b}i
 id="t-sc-redirect"
