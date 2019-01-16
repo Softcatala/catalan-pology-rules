@@ -160,3 +160,8 @@ id="t-sc-wireless"
 valid !msgstr="xarxa sense fils"
 hint="Es tradueix per «xarxa sense fil», «xarxa sense fils» és incorrecte."
 
+{\byes\b}i
+id="t-sc-yes"
+valid msgstr="Sí"
+valid msgstr="Yes" # Alguns cops no es tradueix
+hint="«Sí» quan és afirmatiu cal que porti accent"
