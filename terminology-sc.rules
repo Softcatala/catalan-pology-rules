@@ -73,7 +73,7 @@ hint="«firewall» es tradueix per «tallafoc» en singular."
 {\bfont\b}i
 id="t-sc-font"
 valid !msgstr="tipus de|tipografia"
-hint="«font face» o «font» es tradueix per «lletra» o «lletra tipogràfica». «font family» es tradueix per «família tipogràfica»."
+hint="«font» es tradueix per «lletra» o «lletra tipogràfica». «font family» es tradueix per «família tipogràfica»."
 
 {^help$}i
 id="t-sc-help"
