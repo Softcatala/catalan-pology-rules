@@ -70,6 +70,11 @@ id="t-sc-firewall"
 valid !msgstr="tallafocs"
 hint="«firewall» es tradueix per «tallafoc» en singular."
 
+{\bfont\b}i
+id="t-sc-font"
+valid !msgstr="tipus de|tipografia"
+hint="«font face» o «font» es tradueix per «lletra» o «lletra tipogràfica». «font family» es tradueix per «família tipogràfica»."
+
 {^help$}i
 id="t-sc-help"
 valid msgstr="Ajuda"
@@ -144,6 +149,11 @@ id="t-sc-save-as"
 valid msgstr="anomena i desa"
 valid msgstr="desa com a" # Acceptat pel Termcat
 hint="«Save as» es tradueix per «anomena i desa» quan és una acció, habitualment a menús i botons."
+
+{\btypeface\b}i
+id="t-sc-typeface"
+valid !msgstr="tipus de|tipografia"
+hint="«typeface» es tradueix per «família tipogràfica»."
 
 {^undo$}i
 id="t-sc-undo"
