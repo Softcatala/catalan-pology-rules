@@ -77,6 +77,7 @@ id="libc-dia-de-b"
 valid !msgstr="(%d|%-d|%e|%-e){1}( de | d'){1}%b"
 hint="La biblioteca glibc versió 2.28 o superior inclou les proposicions al representar el formatador %b. Afegint la preposició manualment, quelcom necessari en versions anteriors, fa que la preposició «de» aparegui repetida p. ex. «1 de de gen». Cal eliminar la preposició «de» abans de «%b»."
 
+# Generic glib rules
 {%B %d}
 id="libc-day"
 valid msgstr="%-d %B"
