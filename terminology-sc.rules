@@ -139,6 +139,11 @@ id="t-sc-save"
 valid msgstr="desa"
 hint="«Save» es tradueix per «desa» quan és una acció, habitualment a menús i botons."
 
+{\bsandbox\b}i
+id="t-sc-sandbox"
+valid msgstr="entorn de proves"
+hint="«Sandbox» ho traduïm com a «entorn de proves»."
+
 {^save as$}i
 id="t-sc-save-as"
 valid msgstr="anomena i desa"
