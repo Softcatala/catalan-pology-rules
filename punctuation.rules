@@ -22,7 +22,7 @@ valid msgid="\.\.\.</guimenuitem></menuchoice>( menu)?\.$"
 hint="Si el missatge origen acaba amb punt final, el missatge destí també hauria (punctuation)"
 
 # If the source message ends with 3 periods, the target message must end with 3 periods.
-{\.\.\.\s*$}i
+{(\.\.\.\s*$|…s*$)}i
 id="punctuation-3period"
 valid msgstr="\.\.\.\s*$"
 valid msgstr="\.\.\.»$"
