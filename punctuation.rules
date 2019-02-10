@@ -26,6 +26,8 @@ hint="Si el missatge origen acaba amb punt final, el missatge destí també haur
 id="punctuation-3period"
 valid msgstr="\.\.\.\s*$"
 valid msgstr="\.\.\.»$"
+valid msgstr="…s*$"
+valid msgstr="…»$"
 hint="Si el missatge origen acaba amb punts suspensius, el missatge destí també hauria (punctuation)"
 
 {.*?('(%[a-z]|{[0-9]})').*?}
