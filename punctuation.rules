@@ -1,5 +1,7 @@
 # Catalan punctuation rules
-# Copyrigth 2015, Josep Ma. Ferrer
+# Copyright 2015, Josep Ma. Ferrer
+# Copyright 2019, Jordi Mas <jmas@softcatala.org>
+#
 # by the KDE Catalan Team (kde-i18n-ca@kde.org)
 # License: GPLv3
 
@@ -43,3 +45,9 @@ id="punctuation-high-quotes"
 valid msgstr='.*?(=“.*?”).*?' #Used to skip when it's assigned in xml/html
 valid msgstr=".*?(«.*?»).*?"
 hint='En català usem cometes baixes («») en comptes de cometes altes (“”) per encloure expressions (punctuation)'
+
+{.*?(`(%[a-z]|{[0-9]})`).*?}
+id="punctuation-accent-quotes"
+valid msgstr='.*?(=`.*?`).*?' #Used to skip when it's assigned in xml/html
+valid msgstr=".*?(«.*?»).*?"
+hint='En català usem cometes baixes («») en comptes de cometes (``) per encloure expressions (punctuation)'
