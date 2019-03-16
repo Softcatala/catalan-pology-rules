@@ -6,7 +6,8 @@
 # License: GPLv3
 #
 # Keep this file alphabetically sorted by source regular expression
-
+#
+# Author: Jordi Mas <jmas@softcatala.org>, 2015-2019
 
 # Remove XML entities.
 include file="filter.include"
