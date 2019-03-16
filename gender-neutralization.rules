@@ -14,10 +14,23 @@ include file="filter.include"
 # Remove accelerator and  hyphen inside words.
 addFilterRegex match="(_|~|&)" on="pmsgid,pmsgstr"
 
+{\b(kid|child)\b}i
+id="t-gender-kid"
+valid !msgstr="nen"
+valid !msgstr="nena"
+hint="«Kid o child» recomanem traduir-ho per «infant» per a neutralizar el gènere."
+
+{\bkids|children\b}i
+id="t-gender-kids"
+valid !msgstr="nens"
+valid !msgstr="nenes"
+valid msgstr="nens i nenes"
+hint="«Kids o children» recomanem traduir-ho per «infants» per a neutralizar el gènere."
+
 {\bwelcome to\b}i
 id="t-gender-welcome"
 valid !msgstr="Benvingut"
 valid !msgstr="Benvinguts"
-hint="«Benvingut» recomanem traduir-ho per «us donem la benvinguda a» per a neutralizar el gènere."
+hint="«Welcome to» recomanem traduir-ho per «us donem la benvinguda a» per a neutralizar el gènere."
 
 
