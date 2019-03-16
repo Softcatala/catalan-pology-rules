@@ -14,6 +14,12 @@ include file="filter.include"
 # Remove accelerator and  hyphen inside words.
 addFilterRegex match="(_|~|&)" on="pmsgid,pmsgstr"
 
+{\beverybody\b}i
+id="t-gender-everybody"
+valid !msgstr="tots"
+valid !msgstr="totes"
+hint="«Everybody» recomanem traduir-ho per «tothom» per a neutralizar el gènere."
+
 {\b(kid|child)\b}i
 id="t-gender-kid"
 valid !msgstr="nen"
