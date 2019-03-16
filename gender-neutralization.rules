@@ -1,0 +1,23 @@
+#
+# This file collects gender neutralization rules for Catalan language
+# 
+# License: GPLv3
+#
+# Keep this file alphabetically sorted by source regular expression
+#
+# Author: Jordi Mas <jmas@softcatala.org>,2019
+# 
+
+# Remove XML entities.
+include file="filter.include"
+
+# Remove accelerator and  hyphen inside words.
+addFilterRegex match="(_|~|&)" on="pmsgid,pmsgstr"
+
+{\bwelcome to\b}i
+id="t-gender-welcome"
+valid !msgstr="Benvingut"
+valid !msgstr="Benvinguts"
+hint="«Benvingut» recomanem traduir-ho per «us donem la benvinguda a» per a neutralizar el gènere."
+
+
