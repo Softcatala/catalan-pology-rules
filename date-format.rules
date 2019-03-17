@@ -83,7 +83,7 @@ id="libc-day"
 valid msgstr="%-d %B"
 hint="«%d» mostra el dia del mes amb un 0 endavant pels dies amb només un dígit, per exemple, «01 de febrer». Cal usar «%-d» perquè es mostri «1 de febrer»"
 
-{%b %d}
+{%b %d|%d %b}
 id="libc-day-min"
 valid msgstr="%-d %b"
 hint="«%d» mostra el dia del mes amb un 0 endavant pels dies amb només un dígit, per exemple, «01 de febr.». Cal usar «%-d» perquè es mostri «1 de febr.»"
