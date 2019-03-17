@@ -32,7 +32,7 @@ valid !msgstr="\bnens\b|\bnenes\b"
 valid msgstr="nens i nenes"
 hint="«Kids o children» recomanem traduir-ho per «infants» per a neutralizar el gènere."
 
-{\bwelcome to\b}i
+{\bwelcome\b}i
 id="gender-welcome"
 valid !msgstr="\bBenvingut\b|\bBenvinguts\b"
 valid !msgstr=""
