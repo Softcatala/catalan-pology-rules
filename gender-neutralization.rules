@@ -5,7 +5,9 @@
 #
 # Keep this file alphabetically sorted by source regular expression
 #
-# Author: Jordi Mas <jmas@softcatala.org>,2019
+# Regles basades en les recomanacions de la guia d'estil de Softcatalà
+#
+# Author: Jordi Mas <jmas@softcatala.org>, 2019
 # 
 
 # Remove XML entities.
