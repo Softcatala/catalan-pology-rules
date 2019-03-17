@@ -35,7 +35,6 @@ hint="«Kids o children» recomanem traduir-ho per «infants» per a neutralizar
 {\bwelcome\b}i
 id="gender-welcome"
 valid !msgstr="\bBenvingut\b|\bBenvinguts\b"
-valid !msgstr=""
-hint="«Welcome to» recomanem traduir-ho per «Us donem la benvinguda a» per a neutralizar el gènere."
+hint="«Welcome» recomanem traduir-ho per «Us donem la benvinguda» per a neutralizar el gènere."
 
 
