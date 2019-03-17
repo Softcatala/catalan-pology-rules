@@ -78,7 +78,7 @@ valid !msgstr="(%d|%-d|%e|%-e){1}( de | d'){1}%b"
 hint="La biblioteca glibc versió 2.28 o superior inclou les proposicions al representar el formatador %b. Afegint la preposició manualment, quelcom necessari en versions anteriors, fa que la preposició «de» aparegui repetida p. ex. «1 de de gen». Cal eliminar la preposició «de» abans de «%b»."
 
 # Generic glib rules
-{%B %d}
+{%B %d|%d %B}
 id="libc-day"
 valid msgstr="%-d %B"
 hint="«%d» mostra el dia del mes amb un 0 endavant pels dies amb només un dígit, per exemple, «01 de febrer». Cal usar «%-d» perquè es mostri «1 de febrer»"
