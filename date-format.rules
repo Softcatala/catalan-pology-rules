@@ -93,3 +93,9 @@ id="libc-hour-nozero"
 valid msgstr="%-H[:∶.]%M"
 valid msgstr="%-k[:∶.]%M"
 hint="«%H:%M» mostra l'hora com 01:44. En català usem 1:44, sense zero devant. Cal usar «%-H:%M» per mostrar l'hora correctament."
+
+{^%R$|%R[:∶.]%S}
+id="libc-hour-nozero-r"
+valid msgstr="%-H[:∶.]%M"
+valid msgstr="%-k[:∶.]%M"
+hint="«%R» mostra l'hora com 01:44. En català usem 1:44, sense zero devant. Cal usar «%-H:%M» per mostrar l'hora correctament."
