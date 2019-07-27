@@ -71,6 +71,11 @@ id="t-sc-firewall"
 valid !msgstr="tallafocs"
 hint="«firewall» es tradueix per «tallafoc», en singular."
 
+{\bhyperlink(s)?\b}i
+id="t-sc-hyperlink"
+valid !msgstr="hiperenlla(ç|ços)"
+hint="«Hiperenllaç» ha caigut amb el desús. Cal usar simplement «enllaç»."
+
 {^help$}i
 id="t-sc-help"
 valid msgstr="Ajuda"
