@@ -5,7 +5,9 @@
 #
 # Keep this file alphabetically sorted by source regular expression
 #
-# Regles basades en les recomanacions de la guia d'estil de Softcatalà
+# Principis utilitzats per aquestes recomanacions:
+#   - Quan l'alternativa de neutralització de gènere no representi duplicació de les formes (usuari/usuaria)
+#   - Quan no es posi en compromís la claretat de la traducció
 #
 # Author: Jordi Mas <jmas@softcatala.org>, 2019
 # 
@@ -15,6 +17,11 @@ include file="filter.include"
 
 # Remove accelerator and  hyphen inside words.
 addFilterRegex match="(_|~|&)" on="pmsgid,pmsgstr"
+
+{\bdevelopers\b}i
+id="gender-developers"
+valid !msgstr="\bdesenvolupadors\b"
+hint="«Developers» recomanem traduir-ho per «equip de desenvolupament» per a neutralizar el gènere."
 
 {\beverybody\b}i
 id="gender-everybody"
@@ -32,9 +39,13 @@ valid !msgstr="\bnens\b|\bnenes\b"
 valid msgstr="nens i nenes"
 hint="«Kids o children» recomanem traduir-ho per «infants» per a neutralizar el gènere."
 
+{\btranslators\b}i
+id="gender-translators"
+valid !msgstr="\btraductors\b"
+hint="«Translators» recomanem traduir-ho per «equip de traducció» per a neutralizar el gènere."
+
 {\bwelcome\b}i
 id="gender-welcome"
 valid !msgstr="\bBenvingut\b|\bBenvinguts\b"
 hint="«Welcome» recomanem traduir-ho per «Us donem la benvinguda» per a neutralizar el gènere."
-
 
