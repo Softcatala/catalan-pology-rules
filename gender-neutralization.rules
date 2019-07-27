@@ -6,7 +6,7 @@
 # Keep this file alphabetically sorted by source regular expression
 #
 # Principis utilitzats per aquestes recomanacions:
-#   - Quan l'alternativa de neutralització de gènere no representi duplicació de les formes (usuari/usuaria)
+#   - Quan l'alternativa de neutralització de gènere no representi duplicació de les formes (usuari/usuària)
 #   - Quan no es posi en compromís la claretat de la traducció
 #
 # Author: Jordi Mas <jmas@softcatala.org>, 2019
@@ -17,6 +17,11 @@ include file="filter.include"
 
 # Remove accelerator and  hyphen inside words.
 addFilterRegex match="(_|~|&)" on="pmsgid,pmsgstr"
+
+{\bauthor\b}i
+id="gender-author"
+valid !msgstr="\bautors\b"
+hint="«autor» recomanem traduir-ho per «autoria» per a neutralizar el gènere."
 
 {\bdevelopers\b}i
 id="gender-developers"
