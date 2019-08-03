@@ -53,3 +53,11 @@ id="punctuation-accent-quotes"
 valid msgstr='.*?(=`.*?`).*?' #Used to skip when it's assigned in xml/html
 valid msgstr=".*?(«.*?»).*?"
 hint='En català usem cometes baixes («») en comptes de cometes (``) per encloure expressions (punctuation)'
+
+# Negative reg exp /^((?!REGULAR_EXPRESSION_HERE).)*$/
+{^((?!(([:])( )*$)).)*$}
+id="punctuation-3period-no"
+valid msgstr="[^:]$"
+hint="Si el missatge origen acaba no acaba dos punts, el missatge destí tampoc hauria de fer-ho (punctuation)"
+
+
