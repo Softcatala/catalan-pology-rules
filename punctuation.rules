@@ -56,8 +56,12 @@ hint='En català usem cometes baixes («») en comptes de cometes (``) per enclo
 
 # Negative reg exp /^((?!REGULAR_EXPRESSION_HERE).)*$/
 {^((?!(([:])( )*$)).)*$}
-id="punctuation-3period-no"
+id="punctuation-colon-no"
 valid msgstr="[^:]$"
 hint="Si el missatge origen acaba no acaba dos punts, el missatge destí tampoc hauria de fer-ho (punctuation)"
 
+{^((?!(([\.…])( )*$)).)*$}
+id="punctuation-period-no"
+valid msgstr="[^\.]$"
+hint="Si el missatge origen acaba no acaba en punt, el missatge destí tampoc hauria de fer-ho (punctuation)"
 
