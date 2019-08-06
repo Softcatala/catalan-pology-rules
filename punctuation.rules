@@ -58,10 +58,10 @@ hint='En català usem cometes baixes («») en comptes de cometes (``) per enclo
 {^((?!(([:])( )*$)).)*$}
 id="punctuation-colon-no"
 valid msgstr="[^:]$"
-hint="Si el missatge origen acaba no acaba dos punts, el missatge destí tampoc hauria de fer-ho (punctuation)"
+hint="Si el missatge original acaba no acaba dos punts, la traducció tampoc hauria de fer-ho (punctuation)"
 
 {^((?!(([\.…!])( )*$)).)*$}
 id="punctuation-period-no"
 valid msgstr="[^\.]$"
-hint="Si el missatge origen acaba no acaba en punt, el missatge destí tampoc hauria de fer-ho (punctuation)"
+hint="Si el missatge original acaba no acaba en punt, la traducció tampoc hauria de fer-ho (punctuation)"
 
