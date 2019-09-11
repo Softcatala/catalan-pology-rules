@@ -156,6 +156,11 @@ valid msgstr="anomena i desa"
 valid msgstr="desa com a" # Acceptat pel Termcat
 hint="«Save as» es tradueix per «anomena i desa» quan és una acció, habitualment a menús i botons."
 
+{\bsheet(s)?\b}i
+id="t-sc-sheet"
+valid !msgstr="fulla|fulles"
+hint="«fulla» en femení fa referència a una part d'una planta. Cal usar «full» que es fa referència a un tros de paper rectangular."
+
 {^undo$}i
 id="t-sc-undo"
 valid msgstr="Desfés"
