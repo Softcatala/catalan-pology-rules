@@ -45,6 +45,11 @@ id="t-sc-command-line"
 valid msgstr="línia d'ordres"
 hint="«Command line» es tradueix per «línia d'ordres»."
 
+{^copy$}i
+id="t-sc-copy"
+valid msgstr="Copia"
+hint="«Copy» es tradueix per «Copia» quan és una acció, habitualment a menús i botons."
+
 {^cut$}i
 id="t-sc-cut"
 valid msgstr="Retalla"
