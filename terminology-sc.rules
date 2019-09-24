@@ -120,7 +120,7 @@ hint="«Pausar» no existeix com a verb."
 {\bperceptual\b}i
 id="t-sc-perceptual"
 valid !msgstr="Perceptual"
-hint="«Perceptual» és un aglicisme, cal usar «perceptiu»."
+hint="«Perceptual» és un anglicisme, cal usar «perceptiu»."
 
 {\bplot.*\b}i
 id="t-sc-plot"
