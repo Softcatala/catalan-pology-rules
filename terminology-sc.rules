@@ -96,7 +96,7 @@ id="t-sc-monitor"
 valid !msgstr="monitoritzar"
 hint="«Monitoritzar» no existeix com a verb."
 
-{^New (\w+)$}i
+{^New (\w+)[:]?$}i
 id="t-sc-new"
 valid !msgstr="^(nou|nova|noves|nous).*$"
 valid msgstr="Nova Zelanda"
