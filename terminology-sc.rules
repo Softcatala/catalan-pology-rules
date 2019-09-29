@@ -96,6 +96,20 @@ id="t-sc-monitor"
 valid !msgstr="monitoritzar"
 hint="«Monitoritzar» no existeix com a verb."
 
+{^New (\w+)$}i
+id="t-sc-new"
+valid !msgstr="^(nou|nova|noves|nous).*$"
+valid msgstr="Nova Zelanda"
+valid msgstr="Nova Caledònia"
+valid msgstr="Nou Mèxic"
+valid msgstr="Nova York"
+valid msgstr="Nova Brunsvic"
+valid msgstr="Nova Delhi"
+valid msgstr="Nova Orleans"
+valid msgstr="Nova Amsterdam"
+valid msgstr="Nova Jersey"
+hint="En català el substantiu va després del nom, llavors diem «Carpeta nova» en comptes de «Nova carpeta»."
+
 {^ok$}i
 id="t-sc-ok"
 valid msgstr="D'acord"
