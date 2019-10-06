@@ -124,6 +124,7 @@ valid msgstr="Nova York"
 valid msgstr="Nova Zelanda"
 valid msgstr="Noves Hèbrides"
 valid msgstr="noves tecnologies"
+valid msgstr="Nova versió"
 hint="En català el substantiu va després del nom, llavors diem «Carpeta nova» en comptes de «Nova carpeta»."
 
 {^ok$}i
