@@ -2,7 +2,7 @@
 # HTML, XML rules for Catalan translations
 # License: GPLv3
 #
-# Author: Jordi Mas <jmas@softcatala.org>, 2017
+# Author: Jordi Mas <jmas@softcatala.org>, 2017, 2019
 #
 # Detects HTML, XML tags commonly used in strings that are not present
 # potentially showing break texts or not an accurate representation
@@ -157,4 +157,9 @@ id="tags-quote-close"
 valid msgstr="</quote>"
 hint="Falta l'etiqueta </quote>"
 
+#Spaces
 
+{[ ]<[a-z|0-9|_-]*[^/?]>}i
+id="tags-spaces"
+valid !msgstr="[a-z]<[a-z]*[^/?]>"
+hint="Falta un espai abans d'una etiqueta el que fa que el text i l'etiqueta es mostrin com una única paraula."
