@@ -78,7 +78,7 @@ id="tags-li"
 valid msgstr="<li>"
 hint="Falta l'etiqueta <li>"
 
-### http://projectmallard.org/1.0/ extensively in GNOME documentation
+### http://projectmallard.org/1.1/ extensively in GNOME documentation
 
 {<app>}
 id="tags-app"
@@ -104,6 +104,11 @@ hint="Falta l'etiqueta </cmd>"
 id="tags-link"
 valid msgstr="<link"
 hint="Falta l'etiqueta <link"
+
+{<\/link}
+id="tags-link-close"
+valid msgstr="</link"
+hint="Falta l'etiqueta </link"
 
 {<gui>}
 id="tags-gui"
