@@ -161,5 +161,5 @@ hint="Falta l'etiqueta </quote>"
 
 {[ ]<[a-z|0-9|_-]*[^/?]>}i
 id="tags-spaces"
-valid !msgstr="[a-z]<[a-z]*[^/?]>"
+valid !msgstr="[a-z]<[a-z|0-9|_-]*[^/?]>"
 hint="Falta un espai abans d'una etiqueta el que fa que el text i l'etiqueta es mostrin com una única paraula."
