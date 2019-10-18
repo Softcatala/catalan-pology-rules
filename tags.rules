@@ -157,7 +157,7 @@ id="tags-quote-close"
 valid msgstr="</quote>"
 hint="Falta l'etiqueta </quote>"
 
-#Spaces
+### Spaces & tags
 
 {[ ]<[a-z|0-9|_-]*[^/?]>}i
 id="tags-spaces-start"
