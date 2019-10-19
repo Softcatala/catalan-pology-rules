@@ -70,3 +70,7 @@ id="punctuation-space-end-no"
 valid msgstr="[^ ]$"
 hint="Si el missatge original acaba no acaba en espai, la traducció tampoc hauria de fer-ho (punctuation)"
 
+{^ .*}
+id="punctuation-space-start-no"
+valid msgstr="^ .*"
+hint="Si el missatge original comença en espai però la traducció no (punctuation)"
