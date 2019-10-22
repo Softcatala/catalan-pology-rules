@@ -150,6 +150,8 @@ id="tags-key-close"
 valid msgstr="</key>"
 hint="Falta l'etiqueta </key>"
 
+{[ ]<[a-z|0-9|_-]*[^/?]>}i
+
 ### DocBook 5.0 tags
 
 {<quote>}
@@ -161,6 +163,12 @@ hint="Falta l'etiqueta <quote>"
 id="tags-quote-close"
 valid msgstr="</quote>"
 hint="Falta l'etiqueta </quote>"
+
+#"<placeholder-1/>"
+{<*.-[0-9]/>}
+id="tags-placeholders"
+valid msgstr="<*.-[0-9]/>"
+hint="Falta una etiqueta."
 
 ### Spaces & tags
 
