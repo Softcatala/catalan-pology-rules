@@ -150,8 +150,6 @@ id="tags-key-close"
 valid msgstr="</key>"
 hint="Falta l'etiqueta </key>"
 
-{[ ]<[a-z|0-9|_-]*[^/?]>}i
-
 ### DocBook 5.0 tags
 
 {<quote>}
