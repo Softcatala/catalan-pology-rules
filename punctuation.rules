@@ -50,7 +50,6 @@ hint='En català usem cometes baixes («») en comptes de cometes altes (“”)
 
 {.*?(`(%[a-z]|{[0-9]}|([\w]*))`).*?}
 id="punctuation-accent-quotes"
-valid msgstr='.*?(=`.*?`).*?' #Used to skip when it's assigned in xml/html
 valid msgstr=".*?(«.*?»).*?"
 valid msgstr="(:[^:]*:`([^`]*)`)" #Used to skip documentation Sphinx
 hint='En català usem cometes baixes («») en comptes de cometes (``) per encloure expressions (punctuation)'
