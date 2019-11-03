@@ -44,7 +44,6 @@ hint='En català usem cometes baixes («») en comptes de cometes dobles ("") pe
 
 {.*?(“(%[a-z]|{[0-9]}|([\w]*))”).*?}
 id="punctuation-high-quotes"
-valid msgstr='.*?(=“.*?”).*?' #Used to skip when it's assigned in xml/html
 valid msgstr=".*?(«.*?»).*?"
 hint='En català usem cometes baixes («») en comptes de cometes altes (“”) per encloure expressions (punctuation)'
 
