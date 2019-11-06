@@ -1,0 +1,13 @@
+#
+# Rules for GNOME Catalan translations
+# License: GPLv3
+#
+# Author: Jordi Mas <jmas@softcatala.org>, 2019
+#
+
+
+{^Select <}i
+id="gnome-select"
+valid msgstr="^Seleccioneu|^Trieu"
+hint="Sembla referir-se a una acció que ha de fer l'usuari, llavors cal usar la segona persona del present plural."
+
