@@ -78,7 +78,7 @@ id="tags-li"
 valid msgstr="<li>"
 hint="Falta l'etiqueta <li>"
 
-### http://projectmallard.org/1.1/ extensively in GNOME documentation
+### http://projectmallard.org/1.1/ tags used extensively in GNOME documentation
 
 {<app>}
 id="tags-app"
