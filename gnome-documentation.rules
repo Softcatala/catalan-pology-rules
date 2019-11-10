@@ -16,3 +16,16 @@ id="gnome-press"
 valid msgstr="Premeu"
 hint="Sembla referir-se a una acció que ha de fer l'usuari, llavors cal usar la segona persona del present plural."
 
+{.*}i
+id="gnome-page-title-present"
+valid !comment="(page/title|section/title)"
+valid !msgstr="^(\w*eu|Edita|Canvia|Envia)\b"
+hint="En títols de pàgines de documentació cal utilitzar preferentment construccions nominals o, si això no és possible, infinitius però no present plural."
+
+{.*}i
+id="gnome-page-title-gerund"
+valid !comment="(page/title|section/title)"
+valid !msgstr="^(\w*nt)\b"
+valid msgstr="Quant|Diferent"
+hint="En títols de pàgines de documentació cal utilitzar preferentment construccions nominals o, si això no és possible, infinitius però no el gerundi."
+
