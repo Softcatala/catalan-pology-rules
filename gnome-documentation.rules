@@ -9,12 +9,12 @@
 {^Select <}i
 id="gnome-select"
 valid msgstr="^Seleccioneu|^Trieu"
-hint="Sembla referir-se a una acció que ha de fer l'usuari, llavors cal usar la segona persona del present plural."
+hint="Sembla referir-se a una acció que ha de fer l'usuari, llavors cal usar l'imperatiu en segona persona del plural."
 
 {^Press <}i
 id="gnome-press"
 valid msgstr="Premeu"
-hint="Sembla referir-se a una acció que ha de fer l'usuari, llavors cal usar la segona persona del present plural."
+hint="Sembla referir-se a una acció que ha de fer l'usuari, llavors cal usar l'imperatiu en segona persona del plural."
 
 {.*}i
 id="gnome-page-title-imperative"
