@@ -19,7 +19,7 @@ hint="Sembla referir-se a una acció que ha de fer l'usuari, llavors cal usar l'
 {.*}i
 id="gnome-page-title-imperative"
 valid !comment="(page/title|section/title)"
-valid !msgstr="^(\w*eu|^Edita|^Canvia|^Envia)\b"
+valid !msgstr="^(\w*eu|^Edita|^Canvia|^Envia|^Tanca|^Navega)\b"
 valid msgstr="^Correu\b"
 hint="En títols de pàgines de documentació cal utilitzar preferentment construccions nominals o, si això no és possible, infinitius però no l'imperatiu."
 
@@ -27,5 +27,5 @@ hint="En títols de pàgines de documentació cal utilitzar preferentment constr
 id="gnome-page-title-gerund"
 valid !comment="(page/title|section/title)"
 valid !msgstr="^(\w*nt)\b"
-valid msgstr="^Quant|^Diferent|^Esborrament|^Enregistrament"
+valid msgstr="^Quant|^Diferent|^Esborrament|^Enregistrament|Comportament"
 hint="En títols de pàgines de documentació cal utilitzar preferentment construccions nominals o, si això no és possible, infinitius però no el gerundi."
