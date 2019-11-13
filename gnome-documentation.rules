@@ -1,5 +1,7 @@
 #
-# Rules for GNOME Catalan translations
+# Conjunt de regles que aprofita els comentaris i etiquetes del sistema de documentació del GNOME
+# per detectar sistemàticament l'ús incorrecte de formes verbals.
+#
 # License: GPLv3
 #
 # Author: Jordi Mas <jmas@softcatala.org>, 2019
@@ -27,5 +29,5 @@ hint="En títols de pàgines de documentació cal utilitzar preferentment constr
 id="gnome-page-title-gerund"
 valid !comment="(page/title|section/title)"
 valid !msgstr="^(\w*nt)\b"
-valid msgstr="^Quant|^Diferent|^Esborrament|^Enregistrament|^Comportament|^Desplaçament"
+valid msgstr="^Quant|^Diferent|^Esborrament|^Enregistrament|^Comportament|^Desplaçament|^Lliurament"
 hint="En títols de pàgines de documentació cal utilitzar preferentment construccions nominals o, si això no és possible, infinitius però no el gerundi."
