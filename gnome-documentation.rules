@@ -29,5 +29,5 @@ hint="En títols de pàgines de documentació cal utilitzar preferentment constr
 id="gnome-page-title-gerund"
 valid !comment="(page/title|section/title)"
 valid !msgstr="^(\w*nt)\b"
-valid msgstr="^Quant|^Diferent|^Esborrament|^Enregistrament|^Comportament|^Desplaçament|^Lliurament"
+valid msgstr="^Quant|^Diferent|^Esborrament|^Enregistrament|^Comportament|^Desplaçament|^Lliurament|^Enviament|^Reenviament"
 hint="En títols de pàgines de documentació cal utilitzar preferentment construccions nominals o, si això no és possible, infinitius però no el gerundi."
