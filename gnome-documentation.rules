@@ -35,6 +35,7 @@ hint="En títols de pàgines de documentació cal utilitzar preferentment constr
 {<gui>.*</gui>}i
 id="gnome-infinitive-ar"
 valid !msgstr="<gui>(\w*ar)\b.*</gui>"
+valid msgstr="<gui>(Llindar|Calendar)\b.*</gui>"
 hint="En elements d'interfície d'usuari habitualment cal usar l'imperatiu (p. ex. «Desa») en comptes de l'infinitiu (p. ex. «Desar»). Reviseu que la traducció dels noms dels elements d'interfície."
 
 {<gui>.*</gui>}i
