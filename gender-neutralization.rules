@@ -23,7 +23,7 @@ id="gender-author"
 valid !msgstr="\bautors\b"
 hint="«autor» recomanem traduir-ho per «autoria» per a neutralitzar el gènere."
 
-{\bdevelopers\b}i
+{^developers$}i
 id="gender-developers"
 valid !msgstr="\bdesenvolupadors\b"
 hint="«Developers» recomanem traduir-ho per «equip de desenvolupament» per a neutralitzar el gènere."
