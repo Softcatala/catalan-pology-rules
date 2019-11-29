@@ -21,36 +21,36 @@ addFilterRegex match="(_|~|&)" on="pmsgid,pmsgstr"
 {\bauthor\b}i
 id="gender-author"
 valid !msgstr="\bautors\b"
-hint="«autor» recomanem traduir-ho per «autoria» per a neutralizar el gènere."
+hint="«autor» recomanem traduir-ho per «autoria» per a neutralitzar el gènere."
 
 {\bdevelopers\b}i
 id="gender-developers"
 valid !msgstr="\bdesenvolupadors\b"
-hint="«Developers» recomanem traduir-ho per «equip de desenvolupament» per a neutralizar el gènere."
+hint="«Developers» recomanem traduir-ho per «equip de desenvolupament» per a neutralitzar el gènere."
 
 {\beverybody\b}i
 id="gender-everybody"
 valid !msgstr="\btots\b|\btotes\b"
-hint="«Everybody» recomanem traduir-ho per «tothom» per a neutralizar el gènere."
+hint="«Everybody» recomanem traduir-ho per «tothom» per a neutralitzar el gènere."
 
 {\b(kid|child)\b}i
 id="gender-kid"
 valid !msgstr="\bnen\b|\bnena\b"
-hint="«Kid o child» recomanem traduir-ho per «infant» per a neutralizar el gènere."
+hint="«Kid o child» recomanem traduir-ho per «infant» per a neutralitzar el gènere."
 
 {\bkids|children\b}i
 id="gender-kids"
 valid !msgstr="\bnens\b|\bnenes\b"
 valid msgstr="nens i nenes"
-hint="«Kids o children» recomanem traduir-ho per «infants» per a neutralizar el gènere."
+hint="«Kids o children» recomanem traduir-ho per «infants» per a neutralitzar el gènere."
 
 {\btranslators\b}i
 id="gender-translators"
 valid !msgstr="\btraductors\b"
-hint="«Translators» recomanem traduir-ho per «equip de traducció» per a neutralizar el gènere."
+hint="«Translators» recomanem traduir-ho per «equip de traducció» per a neutralitzar el gènere."
 
 {\bwelcome\b}i
 id="gender-welcome"
 valid !msgstr="\bBenvingut\b|\bBenvinguts\b"
-hint="«Welcome» recomanem traduir-ho per «Us donem la benvinguda» per a neutralizar el gènere."
+hint="«Welcome» recomanem traduir-ho per «Us donem la benvinguda» per a neutralitzar el gènere."
 
