@@ -32,13 +32,13 @@ valid !msgstr="^(\w*nt)\b|^(S'està\b)|^(S'estan\b)"
 valid msgstr="^Quant|^Diferent|^Esborrament|^Enregistrament|^Comportament|^Desplaçament|^Lliurament|^Enviament|^Reenviament|^Realçament"
 hint="En títols de pàgines de documentació cal utilitzar preferentment construccions nominals o, si això no és possible, infinitius però no el gerundi."
 
-{<gui>.*</gui>}i
+{<gui.*>.*</gui.*>}i
 id="gnome-infinitive-ar"
-valid !msgstr="<gui>(\w*ar)\b.*</gui>"
-valid msgstr="<gui>(Llindar|Calendar)\b.*</gui>"
+valid !msgstr="<gui.*>(\w*ar)\b.*</gui.*>"
+valid msgstr="<gui.*>(Llindar|Calendar)\b.*</gui.*>"
 hint="En elements d'interfície d'usuari habitualment cal usar l'imperatiu (p. ex. «Desa») en comptes de l'infinitiu (p. ex. «Desar»). Reviseu que la traducció dels noms dels elements d'interfície."
 
-{<gui>.*</gui>}i
+{<gui.*>.*</gui.*>}i
 id="gnome-infinitive-ir"
-valid !msgstr="<gui>(\w*ir)\b.*</gui>"
+valid !msgstr="<gui.*>(\w*ir)\b.*</gui.*>"
 hint="En elements d'interfície d'usuari habitualment cal usar l'imperatiu (p. ex. «Afegeix») en comptes de l'infinitiu (p. ex. «Afegir»). Reviseu que la traducció dels noms dels elements d'interfície."
