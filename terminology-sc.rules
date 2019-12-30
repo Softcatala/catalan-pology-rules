@@ -91,6 +91,11 @@ id="t-sc-linespacing"
 valid msgstr="interlineat"
 hint="«interlineat» és la forma acceptada pel TERMCAT."
 
+{\blistbox\b}i
+id="t-sc-listbox"
+valid msgstr="quadre de llista"
+hint="«Listbox» es tradueix per «quadre de llista»."
+
 {\bmonitor.*\b}i
 id="t-sc-monitor"
 valid !msgstr="monitoritzar"
