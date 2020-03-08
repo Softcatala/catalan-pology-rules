@@ -21,7 +21,7 @@ hint="Sembla referir-se a una acció que ha de fer l'usuari, llavors cal usar l'
 {.*}i
 id="gnome-page-title-imperative"
 valid !comment="(page/title|section/title)"
-valid !msgstr="^(\w*eu|\w*iu|^Edita|^Canvia|^Envia|^Tanca|^Navega|^Visualitza)\b"
+valid !msgstr="^(\w*eu|\w*iu|^Edita|^Canvia|^Envia|^Tanca|^Navega|^Visualitza|^Desactiva|^Previsualitza)\b"
 valid msgstr="^Correu\b"
 hint="En títols de pàgines de documentació cal utilitzar preferentment construccions nominals o, si això no és possible, infinitius però no l'imperatiu."
 
