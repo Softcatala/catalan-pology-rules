@@ -65,6 +65,11 @@ id="t-sc-edit"
 valid msgstr="Edita"
 hint="«Edit» es tradueix per «edita» quan és una acció, habitualment a menús i botons."
 
+{\bencryp.*\b}i
+id="t-sc-encrypt"
+valid msgstr="xifra.*"
+hint="La preferència termològica és traduir «Encrypt» per «xifrar/xifratge»."
+
 {^exit$}i
 id="t-sc-exit"
 valid msgstr="Surt"
