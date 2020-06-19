@@ -67,7 +67,7 @@ hint="«Edit» es tradueix per «edita» quan és una acció, habitualment a men
 
 {\bencryp.*\b}i
 id="t-sc-encrypt"
-valid msgstr="xifra.*"
+valid msgstr="xifr.*"
 hint="La preferència termològica és traduir «Encrypt» per «xifrar/xifratge»."
 
 {^exit$}i
