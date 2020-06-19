@@ -65,20 +65,9 @@ id="t-sc-edit"
 valid msgstr="Edita"
 hint="«Edit» es tradueix per «edita» quan és una acció, habitualment a menús i botons."
 
-{\bencryp.*\b}i
 id="t-sc-encrypt"
-valid msgstr="xifr.*"
-hint="La preferència terminològica és traduir «encrypt/encryption» per «xifrar/xifratge» (és el terme que s'ha usat històricament)."
-
-{\bdecryp.*\b}i
-id="t-sc-decrypt"
-valid msgstr="xifr.*"
-hint="La preferència terminològica és traduir «decrypt/decryption» per «desxifrar/desxifratge» (és el terme que s'ha usat històricament)."
-
-{\bunencryp.*\b}i
-id="t-sc-unencrypt"
-valid msgstr="xifr.*"
-hint="La preferència terminològica és traduir «unencrypt/unencryption» per «desxifrar/desxifratge» (és el terme que s'ha usat històricament)."
+valid !msgstr="encript.*?"
+hint="La preferència terminològica és traduir «encrypt/encryption/unencrypt/unencryption» per «xifrar/xifratge/desxifrar/desxifratge» (és el terme que s'ha usat històricament)."
 
 {^exit$}i
 id="t-sc-exit"
@@ -94,7 +83,7 @@ hint="«firewall» es tradueix per «tallafoc», en singular."
 {\bhyperlink(s)?\b}i
 id="t-sc-hyperlink"
 valid !msgstr="hiperenlla(ç|ços)"
-hint="«Hiperenllaç» ha caigut amb el desús. Cal usar simplement «enllaç»."
+hint="«Hiperenllaç» ha caigut en desús. Cal usar simplement «enllaç»."
 
 {^help$}i
 id="t-sc-help"
@@ -113,7 +102,7 @@ hint="«Listbox» es tradueix per «quadre de llista»."
 
 {\bmonitor.*\b}i
 id="t-sc-monitor"
-valid !msgstr="monitoritzar"
+valid !msgstr="monitoritz"
 hint="«Monitoritzar» no existeix com a verb."
 
 {^New (\w+)[:]?$}i
@@ -151,6 +140,7 @@ hint="En català el substantiu va després del nom, llavors diem «Carpeta nova�
 id="t-sc-ok"
 valid msgstr="D'acord"
 valid msgstr="Acceptable"
+valid msgstr="Correcte"
 hint="«Ok» es tradueix per «d'acord» quan és una acció, habitualment a menús i botons."
 
 {^paste$}i
@@ -163,10 +153,10 @@ id="t-sc-path"
 valid !msgstr="ruta"
 hint="«Path» es tradueix per «camí», no pas per «ruta»."
 
-{\bpause.*\b}i
+{\bpaus.*\b}i
 id="t-sc-pause"
 valid !msgstr="pausar"
-hint="«Pausar» no existeix com a verb."
+hint="«Pausar» no existeix com a verb. Es tradueix per «posar en pausa», «fer una pausa»"
 
 {\bperceptual\b}i
 id="t-sc-perceptual"
