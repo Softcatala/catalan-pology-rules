@@ -70,6 +70,16 @@ id="t-sc-encrypt"
 valid msgstr="xifr.*"
 hint="La preferència terminològica és traduir «encrypt/encryption» per «xifrar/xifratge» (és el terme que s'ha usat històricament)."
 
+{\bdecryp.*\b}i
+id="t-sc-decrypt"
+valid msgstr="xifr.*"
+hint="La preferència terminològica és traduir «decrypt/decryption» per «desxifrar/desxifratge» (és el terme que s'ha usat històricament)."
+
+{\bunencryp.*\b}i
+id="t-sc-unencrypt"
+valid msgstr="xifr.*"
+hint="La preferència terminològica és traduir «unencrypt/unencryption» per «desxifrar/desxifratge» (és el terme que s'ha usat històricament)."
+
 {^exit$}i
 id="t-sc-exit"
 valid msgstr="Surt"
