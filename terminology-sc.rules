@@ -25,6 +25,11 @@ id="t-sc-blog"
 valid msgstr="blog"
 hint="«Blog» es tradueix per «blog»."
 
+{\bbox\b}i
+id="t-sc-box"
+valid !msgstr="capsa"
+hint="«Box» no es tradueix per «capsa», ja que es refereix a un receptacle de tres dimensions. Suggerim «caixa» quan es refereix a quadre, requadre o rectangle (dues dimensions)."
+
 {^cancel$}i
 id="t-sc-cancel"
 valid msgstr="Cancel·la"
