@@ -32,12 +32,14 @@ hint="Si el missatge origen acaba amb punts suspensius, el missatge destí tamb�
 
 {.*?('(%[a-z]|{[0-9]}|([\w]*))').*?}
 id="punctuation-simple-quotes"
+valid comment="Tag\:\s(literallayout|programlisting|screen|userinput)" # KDE docmessages
 valid msgstr=".*?(='.*?').*?" #Used to skip when it's assigned in xml/html
 valid msgstr=".*?(«.*?»).*?"
 hint="En català usem cometes baixes («») en comptes de cometes simples ('') per encloure expressions (punctuation)"
 
 {.*?("(%[a-z]|{[0-9]}|([\w]*))").*?}
 id="punctuation-double-quotes"
+valid comment="Tag\:\s(literallayout|programlisting|screen|userinput)" # KDE docmessages
 valid msgstr='.*?(=".*?").*?' #Used to skip when it's assigned in xml/html
 valid msgstr=".*?(«.*?»).*?"
 hint='En català usem cometes baixes («») en comptes de cometes dobles ("") per encloure expressions (punctuation)'
@@ -59,7 +61,7 @@ id="punctuation-colon-no"
 valid msgstr="[^:]$"
 hint="Si el missatge original no acaba en dos punts, la traducció tampoc hauria de fer-ho (punctuation)"
 
-{^((?!(([\.…!])( )*$)).)*$}
+{^((?!(([(\.\)|\.)…!])( )*$)).)*$}
 id="punctuation-period-no"
 valid msgstr="[^\.]$"
 hint="Si el missatge original no acaba en punt, la traducció tampoc hauria de fer-ho (punctuation)"
