@@ -5,6 +5,13 @@
 # by the KDE Catalan Team (kde-i18n-ca@kde.org)
 # License: GPLv3
 
+include file="filter.include"
+
+# Omit all content between quotes.
+addFilterRegex match="(?u)\<literal\>.*?\<\/literal\>"               repl="" on="pmsgid,pmsgstr"
+addFilterRegex match="(?u)\<programlisting\>.*?\<\/programlisting\>" repl="" on="pmsgid,pmsgstr"
+addFilterRegex match="(?u)\<userinput\>.*?\<\/userinput\>"           repl="" on="pmsgid,pmsgstr"
+
 # If the source message ends with a colon, the target message must end with a colon.
 {\:\s*$}i
 id="punctuation-colon"
@@ -32,28 +39,27 @@ hint="Si el missatge origen acaba amb punts suspensius, el missatge destí tamb�
 
 {.*?('(%[a-z]|{[0-9]}|([\w]*))').*?}
 id="punctuation-simple-quotes"
-valid comment="Tag\:\s(literallayout|programlisting|screen|userinput)" # KDE docmessages
 valid msgstr=".*?(='.*?').*?" #Used to skip when it's assigned in xml/html
 valid msgstr=".*?(«.*?»).*?"
-hint="En català usem cometes baixes («») en comptes de cometes simples ('') per encloure expressions (punctuation)"
+hint="En català usem cometes baixes («») en comptes de cometes simples ('') per a encloure expressions (punctuation)"
 
-{.*?("(%[a-z]|{[0-9]}|([\w]*))").*?}
+{\".*?\"}
 id="punctuation-double-quotes"
 valid comment="Tag\:\s(literallayout|programlisting|screen|userinput)" # KDE docmessages
 valid msgstr='.*?(=".*?").*?' #Used to skip when it's assigned in xml/html
-valid msgstr=".*?(«.*?»).*?"
-hint='En català usem cometes baixes («») en comptes de cometes dobles ("") per encloure expressions (punctuation)'
+valid msgstr="\«.*?\»"
+hint='En català usem cometes baixes («») en comptes de cometes dobles ("") per a encloure expressions (punctuation)'
 
-{.*?(“(%[a-z]|{[0-9]}|([\w]*))”).*?}
+{\“.*?\”}
 id="punctuation-high-quotes"
-valid msgstr=".*?(«.*?»).*?"
-hint='En català usem cometes baixes («») en comptes de cometes altes (“”) per encloure expressions (punctuation)'
+valid msgstr="\«.*?\»"
+hint='En català usem cometes baixes («») en comptes de cometes altes (“”) per a encloure expressions (punctuation)'
 
-{.*?(`(%[a-z]|{[0-9]}|([\w]*))`).*?}
+{\`.*?\`}
 id="punctuation-accent-quotes"
-valid msgstr=".*?(«.*?»).*?"
+valid msgstr="\«.*?\»"
 valid msgstr="(:[^:]*:`([^`]*)`)" #Used to skip documentation Sphinx
-hint='En català usem cometes baixes («») en comptes de cometes (``) per encloure expressions (punctuation)'
+hint='En català usem cometes baixes («») en comptes de cometes (``) per a encloure expressions (punctuation)'
 
 # Negative reg exp /^((?!REGULAR_EXPRESSION_HERE).)*$/
 {^((?!(([:])( )*$)).)*$}
@@ -61,7 +67,10 @@ id="punctuation-colon-no"
 valid msgstr="[^:]$"
 hint="Si el missatge original no acaba en dos punts, la traducció tampoc hauria de fer-ho (punctuation)"
 
-{^((?!(([(\.\)|\.)…!])( )*$)).)*$}
+# {^((?!(([\.…!])( )*$)).)*$}
+{^((?!((\.\)|[\.…!])( )*$)).)*$}
+# (\.\)|
+# {^((?!(([(\.\)|\.)…!])( )*$)).)*$}
 id="punctuation-period-no"
 valid msgstr="[^\.]$"
 hint="Si el missatge original no acaba en punt, la traducció tampoc hauria de fer-ho (punctuation)"
