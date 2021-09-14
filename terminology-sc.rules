@@ -200,7 +200,8 @@ hint="«Save» es tradueix per «desa» quan és una acció, habitualment a men�
 {\bsandbox\b}i
 id="t-sc-sandbox"
 valid msgstr="entorn de proves"
-hint="«Sandbox» ho traduïm com a «entorn de proves»."
+valid msgstr="espai aïllat"
+hint="«Sandbox» ho traduïm com a «entorn de proves» o «espai aïllat» segons el context."
 
 {^save as$}i
 id="t-sc-save-as"
