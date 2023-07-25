@@ -4,13 +4,13 @@ This repository collects all the Pology rules developed by Softcatalà.
 
 This repository is intended to facilitate the development of new rules.
 
-Once the new rules are completed they will be contributed to upstream (Pology project).
+Once the new rules are completed they will be contributed to upstream (https://github.com/KDE/pology), except for rules that are very specific to us.
 
 # Generating rules from PO files
 
 We created a Python application to systematize the creation of rules from PO files with the intention to generate rules that help to make the translation of ISO standards consistant (languages names, currencies, etc).
 
-The po-to-rules.py works like this:
+The _po-to-rules.py_ works like this:
 
 * Takes as input a PO file
 * Allows optionally to provide some exceptions (e.g. iso_639-exceptions.json)
