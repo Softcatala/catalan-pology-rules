@@ -89,10 +89,10 @@ def read_po_file(filename, exceptions):
 def process_template(template, filename, ctx):
     template = open(template, 'r').read()
     parsed = pystache.Renderer()
-    s = parsed.render(unicode(template, "utf-8"), ctx)
+    s = parsed.render(template, ctx)
 
     f = open(filename, 'w')
-    f.write(s.encode("utf-8"))
+    f.write(s)
     f.close()
 
 
@@ -126,7 +126,7 @@ def read_parameters():
 
 def main():
 
-    print "Converts a PO file into a Pology rules file"
+    print("Converts a PO file into a Pology rules file")
 
     _input, template, exceptions, output = read_parameters()
 
