@@ -1,8 +1,4 @@
-.. image:: https://travis-ci.org/Softcatala/catalan-pology-rules.svg
-    :target: https://travis-ci.org/Softcatala/catalan-pology-rules
-
-Introduction
-============
+# Introduction
 
 This repository collects all the Pology rules developed by Softcatalà.
 
@@ -10,8 +6,7 @@ This repository is intended to facilitate the development of new rules.
 
 Once the new rules are completed they will be contributed to upstream (Pology project).
 
-Generating rules from PO files
-==============================
+# Generating rules from PO files
 
 We created a Python application to systematize the creation of rules from PO files with the intention to generate rules that help to make the translation of ISO standards consistant (languages names, currencies, etc).
 
@@ -25,7 +20,6 @@ Example:
 
   po-to-rules.py -i iso_639-3.59.ca.po -t iso_639.mustache -e iso_639-exceptions.json -o iso_639.rules
 
-Contact Information
-===================
+# Contact Information
 
 Jordi Mas: jmas@softcatala.org
