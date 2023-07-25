@@ -4,7 +4,7 @@ This repository collects all the Pology rules developed by Softcatalà.
 
 This repository is intended to facilitate the development of new rules.
 
-Once the new rules are completed they will be contributed to upstream (https://github.com/KDE/pology), except for rules that are very specific to us.
+Once the new rules are completed they will be contributed to upstream (https://invent.kde.org/sdk/pology), except for rules that are very specific to us.
 
 # Generating rules from PO files
 
