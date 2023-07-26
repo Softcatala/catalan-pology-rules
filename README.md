@@ -1,12 +1,16 @@
 # Introduction
 
-This repository collects all the Pology rules developed by Softcatalà.
+This repository is intended to facilitate the development of new Pology rules
 
-This repository is intended to facilitate the development of new rules.
+Once the new rules are completed they will be contributed to upstream (https://invent.kde.org/sdk/pology), except for rules that are very specific to Softcatalà.
 
-Once the new rules are completed they will be contributed to upstream (https://invent.kde.org/sdk/pology), except for rules that are very specific to us.
+In the [contributed](./contributed) directory you have pass rules that we contributed
+
+At the root you have the current rules specific to us.
 
 # Generating rules from PO files
+
+See [isos](./isos) directory
 
 We created a Python application to systematize the creation of rules from PO files with the intention to generate rules that help to make the translation of ISO standards consistant (languages names, currencies, etc).
 
